@@ -18,11 +18,11 @@ faq:
 
 {{< service-grid >}}
 
-{{< service-card persona="Tu es dirigeant et ton équipe perd du temps sur des tâches répétitives ?" url="/services/service-1/" >}}
+{{< service-card persona="Tu es dirigeant et ton équipe perd du temps sur des tâches répétitives ?" url="/services/optimisation-process/" >}}
 Tu sais que ça pourrait aller plus vite, mais tu ne sais pas par où commencer. On identifie les process qui te coûtent le plus cher et on les simplifie.
 {{< /service-card >}}
 
-{{< service-card persona="Tu dois lancer un projet informatique et tu ne veux pas te planter ?" url="/services/service-2/" >}}
+{{< service-card persona="Tu dois lancer un projet informatique et tu ne veux pas te planter ?" url="/services/accompagnement-projet-informatique/" >}}
 Nouveau logiciel, migration, intégration... Tu as besoin de quelqu'un qui parle business ET technique pour cadrer le projet et éviter les pièges.
 {{< /service-card >}}
 
