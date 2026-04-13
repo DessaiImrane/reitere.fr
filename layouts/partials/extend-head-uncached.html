@@ -1,0 +1,112 @@
+{{/* Google Tag Manager — head */}}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXG69KDC');</script>
+
+{{/* Schema.org supplementaire pour le GEO — Organization + LocalBusiness + Service */}}
+
+{{/* Organization + LocalBusiness — sur toutes les pages */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "{{ site.BaseURL }}#organization",
+  "name": "Reitere",
+  "description": "Consultant IT pour TPE et PME a La Reunion. Audit de process, automatisation, accompagnement projet IT, choix d'outils.",
+  "url": "{{ site.BaseURL }}",
+  "founder": {
+    "@type": "Person",
+    "name": "Imrane Dessai",
+    "jobTitle": "Consultant IT",
+    "url": "{{ site.BaseURL }}a-propos/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "La Reunion, France"
+  },
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": -21.1151,
+      "longitude": 55.5364
+    }
+  },
+  "knowsAbout": [
+    "Audit de process IT",
+    "Automatisation",
+    "Accompagnement projet IT",
+    "Choix d'outils IT",
+    "Optimisation de process",
+    "TPE",
+    "PME"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services IT",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Audit de process",
+          "url": "{{ site.BaseURL }}services/audit-process/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Automatisation",
+          "url": "{{ site.BaseURL }}services/automatisation/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accompagnement projet IT",
+          "url": "{{ site.BaseURL }}services/accompagnement-projet-it/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Choix d'outils",
+          "url": "{{ site.BaseURL }}services/choix-outils/"
+        }
+      }
+    ]
+  }
+}
+</script>
+
+{{/* Schema Service — uniquement sur les pages du dossier services */}}
+{{ if eq .Section "services" }}
+{{ if not .IsSection }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "url": "{{ .Permalink }}",
+  "provider": {
+    "@type": "Organization",
+    "@id": "{{ site.BaseURL }}#organization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "La Reunion, France"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Dirigeants de TPE et PME"
+  }
+}
+</script>
+{{ end }}
+{{ end }}
