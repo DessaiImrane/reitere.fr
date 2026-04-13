@@ -1,0 +1,114 @@
+{{/* Override du schema.html Blowfish
+     - Homepage : WebSite (inchangé)
+     - Blog : BlogPosting avec publisher + image
+     - Services : WebPage (le schema Service est dans extend-head-uncached.html)
+     - A propos : ProfilePage (le schema Person est dans extend-head-uncached.html)
+     - Contact : ContactPage
+     - Autres : WebPage
+     - BreadcrumbList : inclut la page d'accueil comme premier élément
+     - mainEntityOfPage : objet au lieu de string
+*/}}
+
+{{ if .IsHome -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": {{ site.Home.Permalink | safeURL }},
+    "name": "{{ .Site.Title | safeJS }}",
+    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    "url": {{ site.Home.Permalink | safeURL }},
+    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
+    "publisher" : {
+      "@type": "LocalBusiness",
+      "@id": "{{ site.BaseURL }}#organization"
+    }
+  }
+  </script>
+{{ else }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+
+  {{/* Déterminer le @type selon la section */}}
+  {{- $schemaType := "WebPage" -}}
+  {{- if eq .Section "blog" -}}
+    {{- $schemaType = "BlogPosting" -}}
+  {{- else if and .File (eq .File.LogicalName "a-propos.md") -}}
+    {{- $schemaType = "ProfilePage" -}}
+  {{- else if and .File (eq .File.LogicalName "contact.md") -}}
+    {{- $schemaType = "ContactPage" -}}
+  {{- end -}}
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "{{ $schemaType }}",
+    {{- if eq .Section "blog" }}
+    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    {{- end }}
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    "url" : {{ .Permalink }},
+    "author" : {
+      "@type": "Person",
+      "name": "{{ .Site.Params.Author.name | safeJS }}",
+      "url": "{{ site.BaseURL }}a-propos/"
+    },
+    "publisher": {
+      "@type": "LocalBusiness",
+      "@id": "{{ site.BaseURL }}#organization",
+      "name": "Reitere",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.BaseURL }}android-chrome-512x512.png"
+      }
+    },
+    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
+    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+    {{ if .Keywords }}
+    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
+    {{ else }}
+    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+    {{ end }}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ .Permalink }}
+    },
+    "wordCount": "{{ .WordCount }}"
+  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": {{ site.Home.Permalink | safeURL }}
+      }{{ $position := 1 }}{{- range .Ancestors -}}
+        {{- if not .IsHome -}}
+          {{- $position = add $position 1 -}},
+          {
+            "@type": "ListItem",
+            "position": {{ $position }},
+            "name": "{{ .Title }}",
+            "item": {{ .Permalink }}
+          }
+        {{- end -}}
+      {{- end -}}
+      {{- $position = add $position 1 -}},
+      {
+        "@type": "ListItem",
+        "position": {{ $position }},
+        "name": "{{ .Title }}",
+        "item": {{ .Permalink }}
+      }
+    ]
+  }{{ end }}]
+  </script>
+{{ end }}

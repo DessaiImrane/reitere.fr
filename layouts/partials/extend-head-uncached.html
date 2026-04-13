@@ -7,21 +7,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 {{/* Schema.org supplementaire pour le GEO — Organization + LocalBusiness + Service */}}
 
-{{/* Organization + LocalBusiness — sur toutes les pages */}}
+{{/* LocalBusiness — sur toutes les pages */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["Organization", "LocalBusiness"],
+  "@type": "LocalBusiness",
   "@id": "{{ site.BaseURL }}#organization",
   "name": "Reitere",
   "description": "Consultant informatique pour TPE et PME à La Réunion. Audit de process, automatisation, accompagnement projet informatique, choix d'outils.",
   "url": "{{ site.BaseURL }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ site.BaseURL }}android-chrome-512x512.png"
+  },
+  "image": "{{ site.BaseURL }}android-chrome-512x512.png",
+  "telephone": "+262 692 38 99 19",
+  "email": "imrane@reitere.fr",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "107 bis rue Jules Aubert",
+    "addressLocality": "Saint-Denis",
+    "addressRegion": "La Réunion",
+    "postalCode": "97400",
+    "addressCountry": "FR"
+  },
   "founder": {
     "@type": "Person",
     "name": "Imrane Dessai",
     "jobTitle": "Consultant informatique",
     "url": "{{ site.BaseURL }}a-propos/"
   },
+  "sameAs": [
+    "https://www.linkedin.com/in/imranedessai/",
+    "https://substack.com/@imranedessai"
+  ],
   "areaServed": {
     "@type": "Place",
     "name": "La Réunion, France"
@@ -51,6 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
+          "@id": "{{ site.BaseURL }}services/optimisation-process/#service",
           "name": "Optimisation et simplification de process",
           "url": "{{ site.BaseURL }}services/optimisation-process/"
         }
@@ -59,6 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
+          "@id": "{{ site.BaseURL }}services/accompagnement-projet-informatique/#service",
           "name": "Accompagnement projet informatique",
           "url": "{{ site.BaseURL }}services/accompagnement-projet-informatique/"
         }
@@ -75,11 +96,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": "{{ .Permalink }}#service",
   "name": "{{ .Title }}",
   "description": "{{ .Description }}",
   "url": "{{ .Permalink }}",
   "provider": {
-    "@type": "Organization",
+    "@type": "LocalBusiness",
     "@id": "{{ site.BaseURL }}#organization"
   },
   "areaServed": {
@@ -93,4 +115,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 </script>
 {{ end }}
+{{ end }}
+
+{{/* Schema Person — uniquement sur la page a-propos */}}
+{{ if and .File (eq .File.LogicalName "a-propos.md") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.BaseURL }}#person",
+  "name": "Imrane Dessai",
+  "jobTitle": "Consultant informatique",
+  "description": "Consultant informatique indépendant depuis 15 ans. Spécialiste en optimisation de process, automatisation et accompagnement projet informatique pour TPE et PME à La Réunion.",
+  "url": "{{ site.BaseURL }}a-propos/",
+  "image": "{{ site.BaseURL }}images/imrane-dessai.png",
+  "telephone": "+262 692 38 99 19",
+  "email": "imrane@reitere.fr",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Saint-Denis",
+    "addressRegion": "La Réunion",
+    "postalCode": "97400",
+    "addressCountry": "FR"
+  },
+  "worksFor": {
+    "@type": "LocalBusiness",
+    "@id": "{{ site.BaseURL }}#organization"
+  },
+  "knowsAbout": [
+    "Optimisation de process",
+    "Automatisation",
+    "Accompagnement projet informatique",
+    "Choix d'outils informatiques",
+    "Audit informatique PME"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/imranedessai/",
+    "https://substack.com/@imranedessai"
+  ]
+}
+</script>
 {{ end }}
