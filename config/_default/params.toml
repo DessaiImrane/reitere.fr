@@ -24,7 +24,7 @@ fingerprintAlgorithm = "sha512"
   showScrollToTop = true
 
 [homepage]
-  layout = "hero"
+  layout = "custom"
   showRecent = false
   showMoreLink = false
   cardView = false

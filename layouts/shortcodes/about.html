@@ -1,0 +1,9 @@
+<!-- Bloc a propos avec photo. Usage : about img="/images/photo.png" -->
+<div class="sc-section sc-about">
+  <div class="sc-about-photo">
+    <img src="{{ .Get "img" }}" alt="Imrane Dessai — Consultant IT" loading="lazy">
+  </div>
+  <div class="sc-about-text prose dark:prose-invert max-w-none">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

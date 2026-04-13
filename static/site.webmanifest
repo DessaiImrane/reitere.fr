@@ -1,0 +1,14 @@
+{
+  "name": "Reitere",
+  "short_name": "Reitere",
+  "icons": [
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#212738",
+  "background_color": "#212738",
+  "display": "standalone"
+}

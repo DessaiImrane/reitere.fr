@@ -1,0 +1,8 @@
+<!-- Carte service cliquable. Usage : service-card title="..." url="/services/..." -->
+<a href="{{ .Get "url" }}" class="sc-service-card">
+  <div class="sc-service-card-inner">
+    <div class="sc-service-card-persona">{{ .Get "persona" }}</div>
+    <div class="sc-service-card-problem">{{ .Inner | markdownify }}</div>
+    <span class="sc-service-card-link">En savoir plus &rarr;</span>
+  </div>
+</a>
