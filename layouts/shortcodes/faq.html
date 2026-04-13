@@ -1,0 +1,34 @@
+<!-- FAQ avec Schema.org FAQPage. Questions dans le frontmatter (faq: [{q, a}]) -->
+
+{{ with .Page.Params.faq }}
+<div class="sc-section">
+  <h2 style="font-size:1.5rem; font-weight:700; margin-bottom:1.5rem;">Questions frequentes</h2>
+  {{ range . }}
+  <div class="sc-faq-item" onclick="this.classList.toggle('open')">
+    <div class="sc-faq-question">{{ .q }}</div>
+    <div class="sc-faq-answer">{{ .a | markdownify }}</div>
+  </div>
+  {{ end }}
+</div>
+
+{{/* Schema.org FAQPage */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- $len := len . -}}
+    {{- range $i, $item := . -}}
+    {
+      "@type": "Question",
+      "name": "{{ $item.q }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $item.a }}"
+      }
+    }{{ if lt (add $i 1) $len }},{{ end }}
+    {{- end -}}
+  ]
+}
+</script>
+{{ end }}

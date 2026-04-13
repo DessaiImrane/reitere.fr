@@ -1,0 +1,19 @@
+<!--
+  Bloc call-to-action pour landing page.
+  Usage : cta title="Pret a simplifier votre IT ?" button="Prendre contact" url="/contact/"
+  Texte optionnel ici.
+  /cta
+-->
+<div class="sc-section" style="text-align:center; padding: 3rem 0;">
+  {{ with .Get "title" }}
+    <div style="font-size:1.75rem; font-weight:700; margin-bottom:1rem;">{{ . }}</div>
+  {{ end }}
+  {{ with .Inner }}
+    <div class="prose dark:prose-invert max-w-none" style="margin-bottom:1.5rem;">
+      {{ . | markdownify }}
+    </div>
+  {{ end }}
+  <a href="{{ .Get "url" | default "/contact/" }}" class="sc-cta-button">
+    {{ .Get "button" | default "Prendre contact" }}
+  </a>
+</div>

@@ -1,0 +1,12 @@
+<!--
+  Bloc douleur pour landing page.
+  Usage : pain title="Le titre de la douleur"
+  Le texte descriptif va ici.
+  /pain
+-->
+<div class="sc-section">
+  <div class="sc-pain-title">{{ .Get "title" }}</div>
+  <div class="prose dark:prose-invert max-w-none">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
