@@ -2,6 +2,7 @@
 date: 2026-04-13
 showDate: false
 showAuthor: false
+showRelatedContent: false
 title: "Accompagnement projet informatique"
 description: "Tu dois lancer un projet informatique et tu ne veux pas te planter ? Je cadre le besoin, je t'aide à choisir et je pilote le projet. Consultant à La Réunion."
 keywords:
