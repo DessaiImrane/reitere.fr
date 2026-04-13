@@ -1,4 +1,6 @@
 ---
+date: 2026-04-13
+showDate: false
 title: "Optimisation et simplification de process"
 description: "Ton équipe perd du temps sur des tâches répétitives ? J'audite tes process, j'identifie ce qui est cassé et je simplifie. Consultant informatique à La Réunion."
 keywords:

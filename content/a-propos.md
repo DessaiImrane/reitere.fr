@@ -1,4 +1,6 @@
 ---
+date: 2026-04-13
+showDate: false
 title: "À propos"
 description: "Imrane Dessai, consultant informatique indépendant depuis 15 ans. Spécialiste en optimisation de process et automatisation pour TPE/PME à La Réunion."
 ---
