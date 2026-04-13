@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "fr"
+languageName = "Francais"
+weight = 1
+title = "Reitere"
+
+[params]
+  displayName = "FR"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Consultant IT pour TPE et PME a La Reunion. Audit de process, automatisation, accompagnement projet IT, choix d'outils."
+  copyright = "Reitere"
+
+[params.author]
+  name = "Imrane Dessai"
+  headline = "Consultant IT"
+  bio = "J'aide les dirigeants de TPE/PME a simplifier leur IT, automatiser leurs process et choisir les bons outils."
+  links = [
+    { email = "mailto:imrane@reitere.fr" },
+    { linkedin = "https://linkedin.com/in/imranedessai" },
+  ]

@@ -1,0 +1,28 @@
+# -- Menu principal --
+
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 20
+
+[[main]]
+  name = "A propos"
+  pageRef = "a-propos"
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
+
+# -- Menu footer --
+
+[[footer]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 10
