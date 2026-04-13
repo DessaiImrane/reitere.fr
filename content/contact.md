@@ -1,6 +1,7 @@
 ---
 date: 2026-04-13
 showDate: false
+showAuthor: false
 title: "Contact"
 description: "Contacte Reitere pour un audit de process, un projet d'automatisation ou un accompagnement informatique à La Réunion."
 ---

@@ -1,6 +1,7 @@
 ---
 date: 2026-04-13
 showDate: false
+showAuthor: false
 title: "Merci"
 description: "Ta demande a bien été reçue. Je te recontacte très rapidement."
 robots: "noindex, nofollow"
