@@ -28,7 +28,7 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "publish: $(date +%Y-%m-%d) content update"
-git push origin main
+git push origin master
 
 echo ""
 echo "=== Deploye ==="
