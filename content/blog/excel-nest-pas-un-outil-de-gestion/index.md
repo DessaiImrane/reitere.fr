@@ -1,6 +1,6 @@
 ---
 title: "Excel n'est pas un outil de gestion de projet"
-description: "Tout le monde te dit de quitter Excel. Le vrai problème, c'est pas l'outil — c'est ton process. Voici ce que je vois sur le terrain."
+description: "Tout le monde te dit de quitter Excel. Le vrai problème, c'est pas l'outil. C'est ton process. Voici ce que je vois sur le terrain."
 date: 2026-04-13
 tags: ["process", "excel", "outils"]
 categories: ["opinion"]
@@ -12,7 +12,7 @@ faq:
   - q: "Est-ce que je dois arrêter Excel ?"
     a: "Pas forcément. Excel est un excellent tableur. Le problème commence quand tu l'utilises comme base de données, comme outil de gestion ou comme système de suivi. Si ton process est clair et simple, Excel peut suffire. Si ton fichier a 15 onglets et des formules que personne ne comprend, c'est un signal."
   - q: "Par quoi remplacer Excel pour gérer mon entreprise ?"
-    a: "Par le bon outil pour le bon usage. Mais la vraie question c'est : est-ce que tu sais exactement ce que ton process nécessite ? Si la réponse est non, aucun logiciel ne te sauvera. Commence par un audit de ton process — le choix de l'outil deviendra évident."
+    a: "Par le bon outil pour le bon usage. Mais la vraie question c'est : est-ce que tu sais exactement ce que ton process nécessite ? Si la réponse est non, aucun logiciel ne te sauvera. Commence par un audit de ton process. Le choix de l'outil deviendra évident."
   - q: "Comment savoir si le problème c'est Excel ou mon process ?"
     a: "Pose-toi cette question : si tu remplaçais ton fichier Excel par un logiciel magique qui fait tout, est-ce que tes équipes sauraient exactement quoi y mettre et comment ? Si la réponse est 'pas sûr', le problème c'est le process."
 ---
@@ -37,7 +37,7 @@ Change d'outil si tu veux. Mets un ERP à 50 000 €. **Si ton process est banca
 
 ## Ce que je vois sur le terrain
 
-**Les commissions.** Un client dans le retail. Pour calculer les commissions de ses vendeurs, voilà ce qu'il faisait : 4 exports depuis son logiciel métier. Copié-collé dans son fichier Excel de calcul. Un onglet de recherche par code vendeur avec des RECHERCHEV. Des formules sur plusieurs colonnes pour arriver au bon montant. Et les lignes en rouge ou en jaune ? Les vendeurs avec un contrat différent — calcul à faire à la main.
+**Les commissions.** Un client dans le retail. Pour calculer les commissions de ses vendeurs, voilà ce qu'il faisait : 4 exports depuis son logiciel métier. Copié-collé dans son fichier Excel de calcul. Un onglet de recherche par code vendeur avec des RECHERCHEV. Des formules sur plusieurs colonnes pour arriver au bon montant. Et les lignes en rouge ou en jaune ? Les vendeurs avec un contrat différent : calcul à faire à la main.
 
 Chaque mois. Pendant des heures.
 
@@ -51,7 +51,7 @@ Le problème, c'est pas Excel. C'est que personne n'a défini comment les donné
 
 ## Ce que tu devrais faire avant de changer d'outil
 
-**Personne ne prend le temps de mettre à plat ce qui est réellement fait dans un process.** Les dirigeants pensent savoir ce que font leurs équipes. C'est vrai dans 80% des cas. Mais les 20% restants — les détails opérationnels, les exceptions, les contournements — passent à la trappe.
+**Personne ne prend le temps de mettre à plat ce qui est réellement fait dans un process.** Les dirigeants pensent savoir ce que font leurs équipes. C'est vrai dans 80% des cas. Mais les 20% restants (les détails opérationnels, les exceptions, les contournements) passent à la trappe.
 
 Et quand tu migres vers un nouvel outil sans avoir documenté ces 20%, tu régresses. Tu perds des fonctionnalités que personne n'avait identifiées. Tu te retrouves plus lent qu'avant, avec un outil plus cher.
 
@@ -59,10 +59,10 @@ Avant de changer d'outil :
 
 - Mets à plat ce que tes équipes font réellement (pas ce que tu penses qu'elles font)
 - Identifie ce qui est lent, redondant ou source d'erreurs
-- Corrige le process d'abord — l'outil viendra après
+- Corrige le process d'abord. L'outil viendra après.
 
-C'est ce que je fais quand j'interviens pour un [diagnostic de process](/services/optimisation-process/). Souvent, le client arrive en disant "il me faut un nouveau logiciel". Et on finit par simplifier le process existant — parfois sans changer d'outil du tout.
+C'est ce que je fais quand j'interviens pour un [diagnostic de process](/services/optimisation-process/). Souvent, le client arrive en disant "il me faut un nouveau logiciel". Et on finit par simplifier le process existant. Parfois sans changer d'outil du tout.
 
-**Tu penses que ton problème c'est Excel ? [On en parle 30 minutes](/contact/) — gratuitement. Tu repartiras avec une réponse claire.**
+**Tu penses que ton problème c'est Excel ? [On en parle 30 minutes](/contact/), gratuitement. Tu repartiras avec une réponse claire.**
 
 {{< faq >}}
