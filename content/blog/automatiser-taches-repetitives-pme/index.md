@@ -2,7 +2,6 @@
 title: "Automatiser les tâches répétitives de ta PME"
 description: "Automatiser les tâches répétitives de ta PME, ça commence par un diagnostic — pas par un outil. Méthode et exemple terrain concret."
 date: 2026-04-15
-featureImage: "/images/blog/automatiser-taches-repetitives-pme/hero.webp"
 featureImageAlt: "Tableau blanc avec deux colonnes : ce qui coince dans un process et ce qu'on automatise"
 tags: ["automatisation", "process", "productivité"]
 categories: ["how-to"]
@@ -67,7 +66,7 @@ Regroupe les tâches de ta liste en lots logiques — des étapes qui vont natur
 
 Tu sais exactement ce que tu cherches. L'outil répond ou ne répond pas.
 
-![Timeline d'un process avec les étapes chronophages identifiées pour automatisation](/images/blog/automatiser-taches-repetitives-pme/diagnostic-process.webp)
+![Timeline d'un process avec les étapes chronophages identifiées pour automatisation](diagnostic-process.webp)
 
 ## Ce que ça donne sur le terrain
 
