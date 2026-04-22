@@ -9,6 +9,11 @@ keywords: ["automatiser tâches répétitives PME", "automatisation entreprise s
 author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
+pipeline:
+  nl_statut: "publié"
+  nl_date: ""
+  fb_statut: "non applicable"
+  fb_posts: 0
 faq:
   - q: "Par où commencer si je n'ai jamais fait d'automatisation ?"
     a: "Commence par t'asseoir avec la personne qui fait le travail, pas celle qui pense savoir comment ça marche. Fais-lui lister chaque étape de son process, avec le temps que ça prend et la valeur qu'elle y apporte. C'est ce diagnostic qui va décider quoi automatiser. Pas l'outil."
