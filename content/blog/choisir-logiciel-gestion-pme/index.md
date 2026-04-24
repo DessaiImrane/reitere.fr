@@ -10,10 +10,10 @@ showAuthor: true
 showReadingTime: true
 featureImageAlt: "Iceberg du choix logiciel PME : la partie visible cache l'audit fonctionnel, les coûts cachés et la formation"
 pipeline:
-  nl_statut: "à écrire"
-  nl_date: ""
-  fb_statut: "à écrire"
-  fb_posts: 0
+  nl_statut: "écrit"
+  nl_date: "2026-04-24"
+  fb_statut: "prêt"
+  fb_posts: 5
 faq:
   - q: "Quel logiciel de gestion choisir pour une PME de 10 à 50 personnes ?"
     a: "Le problème des classements 'top 10', c'est qu'ils répondent à la mauvaise question. Le bon logiciel dépend de ton secteur, tes process, tes ressources et ton budget. Méthode d'abord, produit ensuite."

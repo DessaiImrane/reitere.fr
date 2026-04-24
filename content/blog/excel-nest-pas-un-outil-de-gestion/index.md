@@ -11,8 +11,8 @@ showReadingTime: true
 pipeline:
   nl_statut: "publié"
   nl_date: "2026-04-17"
-  fb_statut: "non applicable"
-  fb_posts: 0
+  fb_statut: "prêt"
+  fb_posts: 5
 faq:
   - q: "Est-ce que je dois arrêter Excel ?"
     a: "Pas forcément. Excel est un excellent tableur. Le problème commence quand tu l'utilises comme base de données, comme outil de gestion ou comme système de suivi. Si ton process est clair et simple, Excel peut suffire. Si ton fichier a 15 onglets et des formules que personne ne comprend, c'est un signal."
