@@ -12,8 +12,8 @@ showReadingTime: true
 pipeline:
   nl_statut: "publié"
   nl_date: "2026-03-20"
-  fb_statut: "à écrire"
-  fb_posts: 0
+  fb_statut: "publié"
+  fb_posts: 5
 ---
 
 Tu n'as pas besoin d'IA pour gagner du temps.
