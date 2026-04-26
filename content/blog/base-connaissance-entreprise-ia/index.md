@@ -12,8 +12,8 @@ showReadingTime: true
 pipeline:
   nl_statut: "publié"
   nl_date: "2026-04-10"
-  fb_statut: "à écrire"
-  fb_posts: 0
+  fb_statut: "publié"
+  fb_posts: 5
 faq:
   - q: "C'est quoi une base de connaissance d'entreprise ?"
     a: "C'est un outil centralisé où sont stockées toutes les réponses aux questions récurrentes de ton équipe : procédures, règles métier, contacts, FAQ interne. L'objectif : que n'importe qui puisse trouver une réponse sans déranger quelqu'un d'autre."

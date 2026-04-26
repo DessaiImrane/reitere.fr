@@ -12,8 +12,8 @@ showReadingTime: true
 pipeline:
   nl_statut: "publié"
   nl_date: "2026-03-27"
-  fb_statut: "à écrire"
-  fb_posts: 0
+  fb_statut: "publié"
+  fb_posts: 5
 faq:
   - q: "C'est quoi la méthode des 5 pourquoi ?"
     a: "La méthode des 5 pourquoi consiste à trouver la cause racine d'un problème en posant la question \"Pourquoi ?\" à répétition — au moins 5 fois. À chaque réponse, tu creuses un niveau plus profond, jusqu'à l'origine réelle du problème et non plus le symptôme visible."

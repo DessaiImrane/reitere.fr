@@ -12,8 +12,8 @@ showReadingTime: true
 pipeline:
   nl_statut: "publié"
   nl_date: "2026-04-03"
-  fb_statut: "à écrire"
-  fb_posts: 0
+  fb_statut: "publié"
+  fb_posts: 5
 faq:
   - q: "C'est quoi l'analyse RFM ?"
     a: "RFM signifie Récence, Fréquence, Montant. C'est une méthode pour classer tes clients selon trois critères : quand a eu lieu leur dernière commande, à quelle fréquence ils commandent, et quel est leur panier moyen. Les clients avec un bon score RFM sont les plus susceptibles de racheter — et les plus rentables à recontacter en premier."
@@ -94,6 +94,10 @@ Demande à l'IA d'écrire un email pour chacun des 10 clients, basé sur la sugg
 Un email qui parle de SES besoins à LUI. Pas de ta promo du mois.
 
 Tu relis, tu ajustes le ton si besoin, tu envoies. **Le contrôle reste chez toi — l'IA fait le travail ingrat.**
+
+## La méthode en vidéo
+
+{{< youtube bq4zPatXJzI >}}
 
 ## Ce que tu peux faire dès lundi
 
