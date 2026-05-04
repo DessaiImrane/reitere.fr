@@ -9,10 +9,10 @@ author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
 pipeline:
-  nl_statut: "à écrire"
-  nl_date: ""
-  fb_statut: "à écrire"
-  fb_posts: 0
+  nl_statut: "planifié"
+  nl_date: "2026-05-01"
+  fb_statut: "prêt"
+  fb_posts: 5
 faq:
   - q: "C'est quoi la différence entre un outil tout-en-un et une approche par satellites ?"
     a: "Un outil tout-en-un centralise toutes les fonctions dans une seule interface. L'approche par satellites, c'est un logiciel central (ton cœur de métier) connecté à des outils spécialisés. Chaque outil fait une chose bien, et ils se parlent entre eux via des connecteurs. Le résultat côté utilisateur est souvent plus fluide, parce que chaque outil est conçu pour son usage spécifique."
