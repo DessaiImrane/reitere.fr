@@ -9,10 +9,10 @@ author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
 pipeline:
-  nl_statut: "à écrire"
-  nl_date: ""
-  fb_statut: "à écrire"
-  fb_posts: 0
+  nl_statut: "programmé"
+  nl_date: "2026-05-08"
+  fb_statut: "prêt"
+  fb_posts: 5
 faq:
   - q: "C'est quoi un projet informatique qui dérape ?"
     a: "Un projet qui dérape, c'est un projet où les délais glissent, le budget gonfle, et le résultat livré ne correspond pas à ce qui avait été vendu. Les signaux arrivent tôt : un intégrateur qui répond toujours 'c'est pas possible', des livrables en retard sans explication, un périmètre qui change sans ton accord."
