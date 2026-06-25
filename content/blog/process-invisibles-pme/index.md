@@ -55,7 +55,7 @@ Une responsable achat copie-colle ses articles entre un tableau Excel et son log
 
 Un responsable commercial fait ses devis dans son logiciel, puis recopie tout dans Excel pour respecter les formats demandés par ses clients. Deux fois le même travail. À chaque devis.
 
-![Deux colonnes : ce que le patron voit (résultat correct) vs ce que l'employé fait (5 étapes manuelles)](/images/blog/process-invisibles-pme/interne.webp)
+![Deux colonnes : ce que le patron voit (résultat correct) vs ce que l'employé fait (5 étapes manuelles)](interne.webp)
 
 Dans une PME grossiste, une équipe photographie chaque article avec un smartphone, copie la photo sur le poste de travail, la dépose dans un dossier partagé, cherche le code article dans l'ERP, renomme le fichier avec ce code. Pour chaque article. Des centaines de fois.
 
