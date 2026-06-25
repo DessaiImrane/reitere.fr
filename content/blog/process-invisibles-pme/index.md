@@ -8,8 +8,8 @@ keywords: ["process inefficaces PME", "tâches manuelles cachées entreprise", "
 author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
-featureImage: "hero.webp"
-featureImageAlt: "Employée de dos devant deux écrans, entourée de piles de papiers, dans un bureau sombre et vide — l'image du travail invisible que le patron ne voit pas"
+featureImage: "/images/blog/process-invisibles-pme/hero.webp"
+featureImageAlt: "Employée de dos devant deux écrans, entourée de piles de papiers, dans un bureau sombre et vide. Travail invisible que le patron ne voit pas."
 pipeline:
   nl_statut: "à écrire"
   nl_date: ""
@@ -17,20 +17,20 @@ pipeline:
   fb_posts: 0
 faq:
   - q: "Comment savoir si mes employés compensent des tâches manuelles ?"
-    a: "En leur posant la question directement : \"C'est quoi la tâche que tu détestes le plus faire ?\" Les réponses te surprendront. Dans la plupart des cas, les compensations sont invisibles jusqu'à ce que tu poses la question — parce que personne n'imagine qu'il pourrait en être autrement."
+    a: "En leur posant la question directement : \"C'est quoi la tâche que tu détestes le plus faire ?\" Les réponses te surprendront. Dans la plupart des cas, les compensations sont invisibles jusqu'à ce que tu poses la question. Personne n'imagine qu'il pourrait en être autrement."
   - q: "Combien ça coûte vraiment une tâche manuelle cachée ?"
-    a: "Une assistante qui passe 4 à 8 heures par semaine sur une tâche automatisable, c'est entre 150 et 300 heures perdues par an. Sur un salaire chargé de 30 000 €, c'est entre 2 000 et 4 500 € de temps gaspillé — pour une seule tâche, chez une seule personne."
+    a: "Une assistante qui passe 4 à 8 heures par semaine sur une tâche automatisable, c'est entre 150 et 300 heures perdues par an. Sur un salaire chargé de 30 000 €, c'est entre 2 000 et 4 500 € de temps gaspillé. Pour une seule tâche, chez une seule personne."
   - q: "Est-ce que tout est automatisable ?"
-    a: "Pas toujours. Mais dans la grande majorité des cas que je vois, la réponse est oui. Le blocage n'est pas technique — c'est que personne n'a jamais regardé le process de près."
+    a: "Pas toujours. Mais dans la grande majorité des cas que je vois, la réponse est oui. Le blocage n'est pas technique : personne n'a jamais regardé le process de près."
 ---
 
-Les process cassés dans une PME se voient rarement depuis le bureau du patron. C'est l'assistante, le commercial, la responsable achat qui absorbent la douleur — en silence, depuis des mois, parfois des années.
+Les process cassés dans une PME se voient rarement depuis le bureau du patron. C'est l'assistante, le commercial, la responsable achat qui absorbent la douleur. En silence, depuis des mois, parfois des années.
 
-## "Ça tourne" — le mensonge le plus cher de la gestion
+## "Ça tourne" : le mensonge le plus cher de la gestion
 
 Tu ne reçois pas de plainte. Les factures partent, les commandes arrivent, les devis sont envoyés. Tu en conclus que ça fonctionne.
 
-Et tu as raison — ça fonctionne. Sauf que le coût de ce fonctionnement, tu ne le vois pas.
+Et tu as raison. Ça fonctionne. Sauf que le coût de ce fonctionnement, tu ne le vois pas.
 
 **Le fait que ça tourne ne veut pas dire que ça tourne bien.**
 
@@ -38,7 +38,7 @@ Ce que tu vois, c'est l'output. Ce que tu ne vois pas, c'est l'énergie que tes 
 
 ## Pourquoi tu ne le vois pas
 
-Le problème ne remonte jamais. Pas parce que tes équipes se taisent par peur — mais parce que "c'est comme ça qu'on a toujours fait". Le workaround est devenu la norme. Personne ne pense à s'en plaindre parce que personne n'imagine qu'il pourrait en être autrement.
+Le problème ne remonte jamais. Pas parce que tes équipes se taisent par peur. Mais parce que "c'est comme ça qu'on a toujours fait". Le workaround est devenu la norme. Personne ne pense à s'en plaindre parce que personne n'imagine qu'il pourrait en être autrement.
 
 Les [tâches répétitives mobilisent jusqu'à 30% du temps de travail des équipes](https://clustdoc.com/blog/fr/ce-que-coutent-vraiment-les-taches-repetitives-a-votre-pme-clust-blog/). Dans les PME, ce chiffre est invisible parce que le résultat final, lui, est correct.
 
@@ -56,7 +56,7 @@ Une responsable achat copie-colle ses articles entre un tableau Excel et son log
 
 Un responsable commercial fait ses devis dans son logiciel, puis recopie tout dans Excel pour respecter les formats demandés par ses clients. Deux fois le même travail. À chaque devis.
 
-![Deux colonnes : ce que le patron voit (résultat correct) vs ce que l'employé fait (5 étapes manuelles)](interne.webp)
+![Deux colonnes : ce que le patron voit (résultat correct) vs ce que l'employé fait (5 étapes manuelles)](/images/blog/process-invisibles-pme/interne.webp)
 
 Dans une PME grossiste, une équipe photographie chaque article avec un smartphone, copie la photo sur le poste de travail, la dépose dans un dossier partagé, cherche le code article dans l'ERP, renomme le fichier avec ce code. Pour chaque article. Des centaines de fois.
 
@@ -74,7 +74,7 @@ La réaction que je vois le plus souvent chez les patrons quand on remonte ensem
 
 Ce n'est pas de la mauvaise volonté. C'est juste que personne n'avait regardé. Et personne ne regarde tant que ça tourne.
 
-Ton process ne te fait pas mal — mais quelqu'un dans ton équipe passe des heures sur une tâche qui pourrait prendre quelques minutes. Il n'osera pas te le dire si tu ne lui poses pas la question.
+Ton process ne te fait pas mal. Mais quelqu'un dans ton équipe passe des heures sur une tâche qui pourrait prendre quelques minutes. Il n'osera pas te le dire si tu ne lui poses pas la question.
 
 ---
 
