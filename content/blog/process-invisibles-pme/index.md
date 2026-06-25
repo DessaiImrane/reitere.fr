@@ -8,7 +8,6 @@ keywords: ["process inefficaces PME", "tâches manuelles cachées entreprise", "
 author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
-featureImage: "/images/blog/process-invisibles-pme/hero.webp"
 featureImageAlt: "Employée de dos devant deux écrans, entourée de piles de papiers, dans un bureau sombre et vide. Travail invisible que le patron ne voit pas."
 pipeline:
   nl_statut: "à écrire"
