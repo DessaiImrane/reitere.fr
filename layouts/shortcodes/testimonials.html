@@ -1,7 +1,7 @@
 <div class="sc-section">
   <div class="sc-testimonials-label">Ils témoignent</div>
   <div class="sc-testimonials-grid">
-    {{ range .Site.Data.testimonials }}
+    {{ range hugo.Data.testimonials }}
     <div class="sc-testimonial-card">
       <div class="sc-testimonial-quote-mark">❝</div>
       <p class="sc-testimonial-text">{{ .quote }}</p>

@@ -20,11 +20,11 @@ faq:
   - q: "Ça prend combien de temps ?"
     a: "Un cadrage de besoin, c'est quelques jours. Un accompagnement de bout en bout, ça peut durer plusieurs semaines ou mois selon le projet. On adapte."
   - q: "Ça coûte combien ?"
-    a: "Ça dépend du projet. On en parle en 30 minutes, gratuitement — et tu repars déjà avec un premier avis objectif, même si on ne travaille jamais ensemble."
+    a: "Ça dépend du projet. On en parle en 30 minutes, gratuitement, tu repars déjà avec un premier avis objectif, même si on ne travaille jamais ensemble."
 ---
 
 {{< pain title="Ton projet informatique est en train de te dépasser" >}}
-Tu as lancé une migration d'ERP. Ton intégrateur te demande des infos que tu ne sais pas lui donner. Le projet n'avance pas. Il t'accuse de ne pas l'aider assez. Tu as l'impression qu'il t'a un peu enfumé depuis le début — mais tu ne sais pas challenger ce qu'il te raconte techniquement.
+Tu as lancé une migration d'ERP. Ton intégrateur te demande des infos que tu ne sais pas lui donner. Le projet n'avance pas. Il t'accuse de ne pas l'aider assez. Tu as l'impression qu'il t'a un peu enfumé depuis le début, mais tu ne sais pas challenger ce qu'il te raconte techniquement.
 
 Ou alors : ton site e-commerce plafonne depuis des mois. Tu sais qu'il faut changer. Mais quoi ? Le thème ? Le CMS ? Le prestataire ? Impossible de trancher. Et tu as peur de perdre le CA que tu fais déjà.
 
@@ -33,11 +33,11 @@ Dans les deux cas, **tu es seul face à des décisions techniques que tu ne maî
 
 ## Ce que ça te coûte quand un projet dérape
 
-Une migration qui part en vrille, c'est **au minimum 10 000 € de surcoût** — en prestations supplémentaires, en correctifs, en retards facturés qui étaient évitables.
+Une migration qui part en vrille, c'est **au minimum 10 000 € de surcoût** : prestations supplémentaires, correctifs, retards facturés qui étaient évitables.
 
 C'est aussi des heures de cheveux arrachés en dehors des heures de boulot. Et quand la migration casse en production, ce sont des ventes qui ne se font pas pendant un jour. Ou plus.
 
-Un mauvais choix de logiciel, c'est **des mois de CA plafonné** — parce que ton outil te limite au lieu de te porter. Et quand tu finis par migrer (parce que tu migres toujours), tu paies deux fois.
+Un mauvais choix de logiciel, c'est **des mois de CA plafonné** parce que ton outil te limite au lieu de te porter. Et quand tu finis par migrer (parce que tu migres toujours), tu paies deux fois.
 
 **Le vrai luxe, c'est pas le meilleur logiciel. C'est quelqu'un qui te dit la vérité avant que tu signes.**
 
@@ -59,18 +59,29 @@ Je suis ton pare-feu entre le business et la tech. Je parle les deux langues.
 
 **4. Le suivi.** Après la livraison, je reste disponible pour m'assurer que tout tourne. Si un truc coince, on ajuste.
 
-{{< proof number="CA x4" text="Client e-commerce, La Réunion — bon prestataire trouvé, migration bien cadrée, CA multiplié par 4. Un autre client : migration ERP sauvée et terminée dans les temps malgré un énorme retard initial." >}}
+{{< proof number="CA x4" text="Client e-commerce, La Réunion : bon prestataire trouvé, migration bien cadrée, CA multiplié par 4. Un autre client : migration ERP sauvée et terminée dans les temps malgré un énorme retard initial." >}}
 
 ## Ce que ça donne après
 
 Ton projet avance. Tu comprends ce qui se passe. Tu as quelqu'un qui défend tes intérêts face aux prestataires techniques.
 
-Tu ne signes plus un devis en espérant que ça marche — tu sais exactement ce que tu achètes, pourquoi, et ce que tu vas obtenir. Ton prestataire livre ce qui a été demandé, dans les temps. Et si ça déraille, quelqu'un le voit avant toi et corrige le tir.
+Tu ne signes plus un devis en espérant que ça marche. Tu sais exactement ce que tu achètes, pourquoi, et ce que tu vas obtenir. Ton prestataire livre ce qui a été demandé, dans les temps. Et si ça déraille, quelqu'un le voit avant toi et corrige le tir.
 
 **Tu reprends le contrôle de tes projets informatiques.**
 
+<div class="sc-section">
+<div class="sc-testimonial-card">
+<div class="sc-testimonial-quote-mark">❝</div>
+<p class="sc-testimonial-text">Il comprend très rapidement les enjeux de l'entreprise en gardant une vraie vision business. Des recommandations pragmatiques, orientées résultats. Réactif, efficace, et ce n'est que le début.</p>
+<div class="sc-testimonial-author">
+<div class="sc-testimonial-name">Ziyad Omarjee</div>
+<div class="sc-testimonial-role">Responsable Marketing · Conforama</div>
+</div>
+</div>
+</div>
+
 {{< cta title="T'as un projet en tête (ou un projet qui dérape) ?" button="Obtenir un premier avis gratuit" url="/contact/" >}}
-30 minutes, gratuites. Tu m'expliques ton projet, je te donne un premier avis objectif — et tu repars avec une direction claire, même si on ne travaille jamais ensemble.
+30 minutes, gratuites. Tu m'expliques ton projet, je te donne un premier avis objectif, tu repars avec une direction claire, même si on ne travaille jamais ensemble.
 {{< /cta >}}
 
 {{< faq >}}
