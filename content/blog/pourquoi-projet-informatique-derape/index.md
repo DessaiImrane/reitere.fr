@@ -4,7 +4,7 @@ description: "70% des projets ERP en PME dépassent le budget ou les délais. Vo
 date: 2026-05-04
 tags: ["projet informatique", "ERP", "PME", "intégrateur"]
 categories: ["projet-informatique"]
-keywords: ["projet informatique PME échoue", "migration ERP qui dérape", "projet informatique en retard", "sauver projet informatique"]
+keywords: ["projet informatique PME échoue", "migration ERP qui dérape", "projet informatique en retard", "sauver projet informatique", "accompagnement projet it", "accompagnement projet informatique PME"]
 author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
@@ -22,6 +22,8 @@ faq:
     a: "Quand le coût de continuer dépasse clairement le coût de recommencer. C'est jamais une décision facile, surtout après des mois d'investissement. Mais plus tu tardes, plus tu ajoutes du coût sur une base bancale. Un bilan honnête à mi-parcours peut t'éviter 6 mois de galère supplémentaires."
   - q: "C'est quoi le rôle d'un consultant sur un projet informatique ?"
     a: "Un consultant indépendant n'a pas d'intérêt à vendre du développement supplémentaire ni à défendre l'intégrateur. Son rôle, c'est de cadrer le besoin réel, de challenger les deux parties, et de s'assurer que ce qui est livré correspond à ce dont l'entreprise a vraiment besoin. Un copilote côté client."
+  - q: "C'est quoi l'accompagnement projet IT pour une PME ?"
+    a: "C'est avoir quelqu'un de ton côté pendant tout le projet : quelqu'un qui comprend ce que tu veux et peut le traduire en langage technique, qui challenge l'intégrateur quand il dit 'c'est pas possible', qui t'alerte quand le projet dérape avant que ça coûte trop cher. En PME, ce rôle n'est quasiment jamais interne. C'est pour ça qu'on l'externalise."
 ---
 
 **Un projet informatique qui dérape, c'est rarement un problème technique.** C'est presque toujours un problème de traduction : entre ce que tu veux, ce que l'intégrateur a compris, et ce que l'outil peut réellement faire.
@@ -101,5 +103,7 @@ Si tu reconnais un de ces scénarios, ne pas attendre :
 Un projet qui dérape, ça se sauve. Mais plus tu attends, plus le coût est élevé, financièrement et humainement.
 
 **Tu sens que ton projet est en train de partir en vrille ? [On en parle 30 minutes](/contact/), gratuitement. Tu repartiras avec une lecture claire de la situation.**
+
+Si tu n'as pas encore lancé de projet mais que tu perds du temps sur des process manuels, l'article sur [l'automatisation des tâches répétitives](/blog/automatiser-taches-repetitives-pme/) est un bon point de départ avant d'aller vers un outil.
 
 {{< faq >}}

@@ -5,7 +5,7 @@ date: 2026-04-15
 featureImageAlt: "Tableau blanc avec deux colonnes : ce qui coince dans un process et ce qu'on automatise"
 tags: ["automatisation", "process", "productivité"]
 categories: ["how-to"]
-keywords: ["automatiser tâches répétitives PME", "automatisation entreprise sans coder", "no-code PME", "gagner du temps automatisation"]
+keywords: ["automatiser tâches répétitives PME", "automatisation entreprise sans coder", "no-code PME", "gagner du temps automatisation", "problèmes répétitifs PME", "automatisation PME problèmes répétitifs"]
 author: "Imrane Dessai"
 showAuthor: true
 showReadingTime: true
@@ -21,6 +21,8 @@ faq:
     a: "Non. Les outils no-code actuels (Make, Zapier, n8n) sont accessibles sans savoir coder. Mais le vrai prérequis, c'est de savoir exactement ce qu'on veut automatiser. Un outil entre les mains de quelqu'un qui n'a pas fait le diagnostic en amont, ça automatise du chaos. Plus vite."
   - q: "Combien de temps ça prend avant de voir les premiers résultats ?"
     a: "Sur un process bien cartographié, les premiers gains sont visibles au premier cycle suivant. L'étape la plus longue, c'est le diagnostic, pas la mise en place. Une demi-journée d'entretien bien menée peut débloquer des semaines de travail inutile."
+  - q: "Quels sont les problèmes répétitifs les plus courants dans une PME ?"
+    a: "Les plus fréquents : ressaisie de données entre outils, relances clients manuelles, rapports assemblés à la main, exports Excel pour alimenter un autre tableur, envoi d'emails quasi identiques. Ce sont des tâches sans valeur ajoutée, chronophages, propices aux erreurs. Le point commun : elles n'existent que parce que personne n'a jamais posé le process à plat. Une fois formalisées, elles disparaissent souvent d'elles-mêmes."
 ---
 
 Pour automatiser les tâches répétitives de ton entreprise, commence par cartographier ton process avant de chercher un outil. **C'est dans cet ordre-là que ça marche. Jamais dans l'autre.**
@@ -52,6 +54,8 @@ Fais-lui lister chaque étape, dans l'ordre. Et pour chacune, trois questions :
 Ce dernier point est le plus révélateur. Souvent, la personne qui fait la tâche sait très bien qu'elle ne sert à rien. Elle attend juste qu'on lui donne la permission de ne plus la faire.
 
 Autre piège à ce stade : interviewer le manager plutôt que l'opérationnel. Le manager te dira comment le process est censé fonctionner. L'opérationnel te dira comment il fonctionne vraiment : les détours, les contournements, les fichiers "temporaires" qui durent depuis trois ans. C'est lui qui a la vraie information.
+
+Ce décalage entre ce que tu crois et ce qui se passe réellement, c'est le sujet de [cet article sur les process invisibles](/blog/process-invisibles-pme/). Si tu penses que tes employés sont lents, lis aussi [celui-ci](/blog/ton-employe-pas-trop-lent-workflow/) avant de conclure.
 
 ## Étape 2 : Filtre ce qui mérite d'être automatisé
 
@@ -89,7 +93,7 @@ C'est ce que je fais systématiquement dans mes missions d'[optimisation de proc
 
 ---
 
-Si tu veux savoir d'où vient le problème dans ton organisation, l'article sur [Excel et les process](/blog/excel-nest-pas-un-outil-de-gestion/) donne une bonne première lecture.
+Si tu veux savoir d'où vient le problème dans ton organisation, l'article sur [Excel et les process](/blog/excel-nest-pas-un-outil-de-gestion/) donne une bonne première lecture. Et si tu te demandes si l'IA peut t'aider à aller plus vite, [lis ça avant](/blog/automatisation-vs-ia-pme/) — la réponse va te surprendre.
 
 Tu veux qu'on fasse ce diagnostic sur ton process ? [Contacte-moi](/contact/). Une heure suffit souvent pour identifier où tu perds le plus de temps.
 

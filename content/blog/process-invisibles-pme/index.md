@@ -10,10 +10,10 @@ showAuthor: true
 showReadingTime: true
 featureImageAlt: "Employée de dos devant deux écrans, entourée de piles de papiers, dans un bureau sombre et vide. Travail invisible que le patron ne voit pas."
 pipeline:
-  nl_statut: "à écrire"
-  nl_date: ""
-  fb_statut: "à écrire"
-  fb_posts: 0
+  nl_statut: "publié"
+  nl_date: "2026-06-25"
+  fb_statut: "prêt"
+  fb_posts: 5
 faq:
   - q: "Comment savoir si mes employés compensent des tâches manuelles ?"
     a: "En leur posant la question directement : \"C'est quoi la tâche que tu détestes le plus faire ?\" Les réponses te surprendront. Dans la plupart des cas, les compensations sont invisibles jusqu'à ce que tu poses la question. Personne n'imagine qu'il pourrait en être autrement."
