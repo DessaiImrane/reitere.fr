@@ -156,6 +156,66 @@
   flex: 1;
 }
 
+/* Bloc témoignages */
+.sc-testimonials-label {
+  text-align: center;
+  color: #57c4e5;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.sc-testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .sc-testimonials-grid { grid-template-columns: 1fr 1fr 1fr; }
+}
+
+.sc-testimonial-card {
+  border: 1px solid rgba(237, 242, 239, 0.15);
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sc-testimonial-quote-mark {
+  color: #affc41;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+  font-family: Georgia, serif;
+}
+
+.sc-testimonial-text {
+  flex: 1;
+  opacity: 0.85;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+  font-style: italic;
+}
+
+.sc-testimonial-author {
+  border-top: 1px solid rgba(237, 242, 239, 0.1);
+  padding-top: 1rem;
+}
+
+.sc-testimonial-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.sc-testimonial-role {
+  color: #57c4e5;
+  font-size: 0.875rem;
+  margin-top: 0.2rem;
+}
+
 /* Section newsletter */
 .sc-newsletter-intro {
   text-align: center;

@@ -42,6 +42,8 @@ Je regarde comment tu travailles et je vois ce qui est cassé, lent ou inutile. 
 Mon job : traduire ton besoin business en actions techniques. Et m'assurer que le résultat est là.
 {{< /about >}}
 
+{{< testimonials >}}
+
 {{< cta title="Découvre ce que tu peux gagner" button="Obtenir mon diagnostic gratuit" url="/contact/" >}}
 30 minutes, gratuites. Tu m'expliques comment tu travailles, je te dis ce que je vois — et tu repars avec des pistes concrètes, même si on ne travaille jamais ensemble.
 {{< /cta >}}

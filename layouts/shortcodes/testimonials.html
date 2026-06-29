@@ -1,0 +1,19 @@
+<div class="sc-section">
+  <div class="sc-testimonials-label">Ils témoignent</div>
+  <div class="sc-testimonials-grid">
+    {{ range .Site.Data.testimonials }}
+    <div class="sc-testimonial-card">
+      <div class="sc-testimonial-quote-mark">❝</div>
+      <p class="sc-testimonial-text">{{ .quote }}</p>
+      <div class="sc-testimonial-author">
+        <div class="sc-testimonial-name">{{ .name }}</div>
+        {{ if or .role .company }}
+        <div class="sc-testimonial-role">
+          {{ .role }}{{ if and .role .company }} · {{ end }}{{ .company }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
