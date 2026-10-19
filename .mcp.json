@@ -2,11 +2,11 @@
   "mcpServers": {
     "serena": {
       "type": "stdio",
-      "command": "/Users/imrane.dessai/.local/bin/serena",
+      "command": "serena",
       "args": [
         "start-mcp-server",
         "--project",
-        "/Users/imrane.dessai/git/reitere.fr",
+        ".",
         "--open-web-dashboard",
         "False"
       ],
