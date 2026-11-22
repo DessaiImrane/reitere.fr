@@ -4,7 +4,7 @@
 
 Site vitrine + blog du consulting IT d'Imrane (Reitere). Objectif : leads inbound via SEO/GEO.
 Contexte éditorial (personas, ton, backlog keywords, skills de contenu) : lire au besoin
-`/Users/imrane.dessai/Google Drive/Obsidian/PKB/02 - Casquettes/AgenceIT/Contenus/Site/CLAUDE.md`
+`$OBSIDIAN/PKB/Contenus/Site/CLAUDE.md`
 Les articles s'écrivent depuis la racine Contenus (`/site-article`), pas ici. Ce repo = technique uniquement.
 
 ## Stack
