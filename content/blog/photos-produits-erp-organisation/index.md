@@ -84,6 +84,8 @@ Les spécialistes du sujet font la même distinction : le logiciel qui gère les
 
 Un [audit de poste](/services/optimisation-process/) commence exactement là : on regarde combien de minutes partent à retrouver, renommer, redéposer, avant de proposer quoi que ce soit.
 
+{{< faq >}}
+
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
 Cinq questions sur tes commandes fournisseurs, ta caisse, tes photos ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}

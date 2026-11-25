@@ -72,6 +72,8 @@ Structurer ce calcul, c'est aussi le rôle d'un [audit de process ciblé](/servi
 
 D'après [Le Moci](https://www.lemoci.com/actualites/secteurs/11-calculer-un-cout-de-revient-import-previsionnel/), la méthode standard répartit le fret et les frais annexes au prorata du volume ou de la valeur de chaque référence, jamais à parts égales entre les commandes. C'est la même logique, sans les lignes propres à La Réunion : l'octroi de mer et l'octroi de mer régional.
 
+{{< faq >}}
+
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
 Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}

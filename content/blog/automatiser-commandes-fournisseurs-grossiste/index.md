@@ -84,6 +84,8 @@ Le même biais existe probablement ailleurs dans ta gestion, pas seulement sur l
 Si tu veux savoir où, [l'article sur les process invisibles d'une PME](/blog/process-invisibles-pme/) explique comment les repérer.
 Et [celui sur logiciel métier vs Excel](/blog/logiciel-metier-vs-excel-pme/) t'aide à trancher où corriger : dans le logiciel, ou à côté.
 
+{{< faq >}}
+
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
 Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}

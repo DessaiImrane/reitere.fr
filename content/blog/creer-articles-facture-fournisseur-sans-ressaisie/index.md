@@ -76,6 +76,8 @@ Ce chantier ressemble à n'importe quelle [automatisation d'une tâche répétit
 
 Un [audit de poste ciblé](/services/optimisation-process/) commence exactement comme les exemples ci-dessus : on regarde combien de fois la même information est retapée avant de proposer quoi que ce soit.
 
+{{< faq >}}
+
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
 Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}

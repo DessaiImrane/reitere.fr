@@ -93,6 +93,8 @@ Trois questions à te poser sur ton propre fichier de clôture :
 
 Si tu n'as pas la réponse à une des trois, ton fichier est dans le même état que celui du magasin ci-dessus. Un [audit de poste](/services/optimisation-process/) commence par ces questions : on s'assoit avec la personne qui fait la clôture et on liste ce qui repose sur quoi.
 
+{{< faq >}}
+
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
 Cinq questions sur ta caisse, ta compta ou tes commandes fournisseurs, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}

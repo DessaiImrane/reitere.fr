@@ -5,6 +5,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TXG69KDC');</script>
 
+{{/* Pages de tags et de catégories : listes sans contenu propre, sorties de l'index */}}
+{{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}<meta name="robots" content="noindex, follow">{{ end }}
+
 {{/* Schema.org supplementaire pour le GEO — Organization + LocalBusiness + Service */}}
 
 {{/* LocalBusiness — sur toutes les pages */}}

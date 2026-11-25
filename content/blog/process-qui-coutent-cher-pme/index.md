@@ -108,6 +108,8 @@ Le calcul le plus proche de ceux listés ici, avec un chantier déjà signé, c'
 
 Trouver ces cinq process dans ta propre boîte prend une heure par poste, pas plus. C'est exactement ce que fait un [audit de process](/services/optimisation-process/) : s'asseoir avec chaque personne, lui demander de montrer comment elle fait, et chiffrer ce qui sort.
 
+{{< faq >}}
+
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
 Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}
