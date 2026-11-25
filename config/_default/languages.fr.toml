@@ -2,7 +2,7 @@ disabled = false
 languageCode = "fr"
 languageName = "Français"
 weight = 1
-title = "Reitere"
+title = "Reitere.fr"
 
 [params]
   displayName = "FR"
@@ -10,7 +10,7 @@ title = "Reitere"
   rtl = false
   dateFormat = "2 January 2006"
   description = "Consultant informatique pour TPE et PME à La Réunion. Audit de process, automatisation, accompagnement projet informatique, choix d'outils."
-  copyright = "Reitere"
+  copyright = "Reitere.fr"
 
 [params.author]
   name = "Imrane Dessai"

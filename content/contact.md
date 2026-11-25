@@ -4,7 +4,7 @@ showDate: false
 showAuthor: false
 showRelatedContent: false
 title: "Contact"
-description: "Contacte Reitere pour un audit de process, un projet d'automatisation ou un accompagnement informatique à La Réunion."
+description: "Contacte Reitere.fr pour un audit de process, un projet d'automatisation ou un accompagnement informatique à La Réunion."
 ---
 
 ## On en parle ?
@@ -13,4 +13,4 @@ Un premier échange de 30 minutes, gratuit, sans engagement. Tu m'expliques ta s
 
 Remplis le formulaire, je te réponds sous 24h.
 
-{{< tally id="vGOpg4" title="Formulaire de contact Reitere" >}}
+{{< tally id="vGOpg4" title="Formulaire de contact Reitere.fr" >}}

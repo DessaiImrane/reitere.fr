@@ -1,5 +1,5 @@
 ---
-title: "Consultant informatique à La Réunion · Reitere"
+title: "Consultant informatique à La Réunion · Reitere.fr"
 description: "Audit de process, automatisation et accompagnement projet informatique pour TPE et PME à La Réunion."
 faq:
   - q: "C'est quoi un audit de process ?"
