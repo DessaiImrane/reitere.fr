@@ -14,7 +14,7 @@ Les articles s'écrivent depuis la racine Contenus (`/site-article`), pas ici. C
 | Générateur | Hugo (v0.160.1 extended) |
 | Thème | Blowfish (git submodule, Tailwind) |
 | Hébergement | GitHub Pages (DNS reitere.fr, HTTPS enforced) + build Cloudflare Pages historique |
-| Tracking | GTM (GTM-TXG69KDC) dans `extend-head-uncached.html` + noscript dans `baseof.html` — pixels configurés dans l'interface GTM |
+| Tracking | Aucun (GTM retiré le 2026-11-26, son conteneur était vide). Vidéos YouTube en mode sans cookie (`privacy.youtube`). Tout ajout de traceur oblige à mettre à jour `content/mentions-legales.md` et à poser un bandeau de consentement |
 | SEO | GSC + Bing Webmaster. Sitemap/robots/canonical/OG natifs Blowfish |
 | GEO | Schema.org JSON-LD : Organization + LocalBusiness (areaServed 974), Service, BlogPosting, FAQPage (shortcode `faq`), BreadcrumbList |
 | Formulaires | Tally (shortcode `tally`) |
@@ -31,7 +31,7 @@ Fond `#212738` · Texte `#edf2ef` · Positif/CTA `#affc41` · Négatif/douleurs 
 
 ## Déploiement
 
-`scripts/site-deploy.sh` : hugo --minify + git commit + push (alias `deploy`). Pipeline : push → build → en ligne.
+`scripts/site-deploy.sh` : git commit + push (alias `deploy`), puis attend la fin du build GitHub Actions (`gh run watch`). Pas de Hugo local : le build se fait uniquement dans `.github/workflows/deploy.yml`.
 
 ## Vérifs
 
