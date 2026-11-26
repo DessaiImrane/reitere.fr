@@ -12,8 +12,8 @@ description: "Mentions légales du site reitere.fr : éditeur, hébergeur, donn�
 
 Le site reitere.fr est édité par **DAIIS**, société à responsabilité limitée au capital de 100 €.
 
-- Siège social : 107 rue Jules Auber, Immeuble Ravate, appartement 11, 97400 Saint-Denis, La Réunion
-- RCS Saint-Denis 894 944 446
+- Siège social : 107 bis rue Jules Auber, Immeuble Ravate, appartement 11, 97400 Saint-Denis, La Réunion
+- RCS Saint-Denis de La Réunion 894 944 446
 - SIRET : 894 944 446 00018
 - TVA intracommunautaire : FR32894944446
 - Téléphone : +262 692 38 99 19
