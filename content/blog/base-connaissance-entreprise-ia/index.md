@@ -18,14 +18,16 @@ faq:
   - q: "C'est quoi une base de connaissance d'entreprise ?"
     a: "C'est un outil centralisé où sont stockées toutes les réponses aux questions récurrentes de ton équipe : procédures, règles métier, contacts, FAQ interne. L'objectif : que n'importe qui puisse trouver une réponse sans déranger quelqu'un d'autre."
   - q: "Pourquoi les wikis internes ne fonctionnent jamais ?"
-    a: "Parce qu'ils sont construits par anticipation : tu documentes ce que tu penses utile, pas ce que les gens cherchent vraiment. Résultat : un wiki de 200 pages que personne ne lit. La bonne approche, c'est l'inverse : laisser les questions de l'équipe créer la documentation. On ne documente que ce qui est vraiment demandé."
+    a: "Parce qu'ils sont construits par anticipation : tu documentes ce que tu penses utile, pas ce que les gens cherchent vraiment, et tu finis avec 200 pages que personne ne lit. La bonne approche, c'est l'inverse : laisser les questions de l'équipe créer la documentation."
   - q: "Quel outil utiliser pour créer cette base de connaissance IA ?"
     a: "Il existe des outils dédiés (Notion AI, Guru, Tettra) mais pour une PME qui démarre, une base simple dans Notion ou Confluence couplée à un assistant IA suffit. L'important, c'est le process : chaque question sans réponse déclenche une réponse du référent, qui est stockée immédiatement."
   - q: "Combien de temps faut-il pour mettre ça en place ?"
-    a: "Une base fonctionnelle peut être opérationnelle en une journée. Ce qui prend du temps, c'est l'alimentation progressive. C'est précisément le modèle : la base se construit d'elle-même au fil des questions de l'équipe, sans projet de documentation à part entière."
+    a: "Une base fonctionnelle peut être opérationnelle en une journée. Ce qui prend du temps, c'est l'alimentation, et elle se fait d'elle-même au fil des questions de l'équipe, sans projet de documentation à part entière."
   - q: "Est-ce que c'est réservé aux grandes entreprises ?"
-    a: "Non, et les TPE/PME en ont encore plus besoin. Dans une petite structure, la connaissance est souvent concentrée sur 1 ou 2 personnes. Quand elles partent en vacances, sont en réunion ou quittent l'entreprise, c'est toute l'organisation qui se retrouve bloquée. La base de connaissance protège contre ce risque."
+    a: "Non, et les TPE/PME en ont encore plus besoin : la connaissance y est souvent concentrée sur 1 ou 2 personnes. Quand elles partent en vacances, sont en réunion ou quittent l'entreprise, toute l'organisation se bloque, et la base de connaissance protège contre ce risque."
 ---
+
+Pour arrêter de répondre 10 fois à la même question, il te faut une base de connaissance d'entreprise qui se remplit avec les vraies questions de ton équipe. Tu réponds une fois, la réponse est stockée, et un assistant la ressert à la personne suivante.
 
 Si tu es le seul à savoir comment les choses fonctionnent dans ton entreprise, tu n'as pas une équipe autonome. **Tu as une équipe sous perfusion.** Et toi, tu passes ta journée à la brancher.
 
@@ -41,9 +43,9 @@ Un patron me dit : *"Mes employés me posent toujours plein de questions, parfoi
 
 Ce n'est pas un problème de compétence de ses employés. Ce n'est pas un problème de communication. **C'est un problème de stockage : la connaissance de l'entreprise n'existe nulle part en dehors de son cerveau.**
 
-Et un cerveau, ça ne scale pas.
+Et un cerveau, ça ne se duplique pas.
 
-Il y a aussi un risque que peu de dirigeants mesurent vraiment : [23 minutes](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching), c'est le temps moyen qu'il faut pour retrouver sa concentration après une interruption. Cinq questions dans ta journée, c'est presque deux heures de concentration perdues. Pas sur des sujets complexes. Sur des boulons à 50 centimes.
+Il y a aussi un risque que peu de patrons mesurent vraiment : [23 minutes](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching), c'est le temps moyen qu'il faut pour retrouver sa concentration après une interruption. Cinq questions dans ta journée, c'est presque deux heures de concentration perdues. Pas sur des sujets complexes. Sur des boulons à 50 centimes.
 
 Et quand un employé clé part, il emporte avec lui tout ce qui n'a jamais été écrit. Les procédures implicites, les exceptions, les contacts informels. La prochaine personne apprend à la dure, en dérangeant quelqu'un d'autre.
 
@@ -57,7 +59,7 @@ Parce que la documentation construite par anticipation documente ce que tu *pens
 
 **Un wiki que personne ne lit, c'est pire qu'une absence de wiki.** Ça donne l'illusion que le problème est réglé alors que la connaissance reste dans ta tête, avec juste un wiki en plus à maintenir.
 
-## La vraie solution : laisser la demande créer la documentation
+## La vraie réponse : laisser la demande créer la documentation
 
 Le principe est inversé. Tu ne documentes pas ce que tu penses utile. **Tu documentes ce que les gens demandent vraiment.**
 
@@ -89,14 +91,16 @@ Fais juste ça : compte le nombre de fois où on t'interrompt pour une question 
 
 En parallèle, note aussi de quel type sont ces questions. Est-ce que c'est toujours les mêmes personnes ? Toujours le même sujet ? Toujours la même étape d'un process ?
 
-Si tu arrives à 5 interruptions ou plus, tu as un problème de stockage de connaissance, pas un problème de personnel. Et ce problème a une solution directe.
+Si tu arrives à 5 interruptions ou plus, tu as un problème de stockage de connaissance, pas un problème de personnel. Et ce problème a une réponse directe.
 
 **La vraie question n'est pas "pourquoi mes équipes ne retiennent pas l'information ?"** C'est "où est stockée cette information pour qu'ils puissent la retrouver sans moi ?"
 
-Si tu veux voir si ce type de système est adaptable à ton organisation, [contacte-moi](/contact/). Je mets ça en place lors de mes missions d'[optimisation de process](/services/optimisation-process/), souvent en une journée pour la base fonctionnelle.
+Ce système, je le mets en place lors de mes missions d'[optimisation de process](/services/optimisation-process/), souvent en une journée pour la base fonctionnelle.
 
----
-
-Le problème d'interruptions vient souvent de pair avec des tâches répétitives non documentées. L'article sur [l'automatisation des tâches répétitives](/blog/automatiser-taches-repetitives-pme/) couvre la suite logique.
+Le problème d'interruptions va souvent de pair avec des tâches répétitives non documentées. L'article sur [l'automatisation des tâches répétitives](/blog/automatiser-taches-repetitives-pme/) couvre la suite logique.
 
 {{< faq >}}
+
+{{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
+{{< /cta >}}

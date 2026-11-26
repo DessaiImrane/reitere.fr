@@ -16,18 +16,18 @@ pipeline:
   fb_posts: 5
 faq:
   - q: "Par où commencer si je n'ai jamais fait d'automatisation ?"
-    a: "Commence par t'asseoir avec la personne qui fait le travail, pas celle qui pense savoir comment ça marche. Fais-lui lister chaque étape de son process, avec le temps que ça prend et la valeur qu'elle y apporte. C'est ce diagnostic qui va décider quoi automatiser. Pas l'outil."
+    a: "Assieds-toi avec la personne qui fait le travail, pas celle qui pense savoir comment ça marche, et fais-lui lister chaque étape de son process avec le temps que ça prend et la valeur qu'elle y apporte. C'est ce diagnostic qui décide quoi automatiser, pas l'outil."
   - q: "Est-ce qu'il faut des compétences techniques pour automatiser ?"
-    a: "Non. Les outils no-code actuels (Make, Zapier, n8n) sont accessibles sans savoir coder. Mais le vrai prérequis, c'est de savoir exactement ce qu'on veut automatiser. Un outil entre les mains de quelqu'un qui n'a pas fait le diagnostic en amont, ça automatise du chaos. Plus vite."
+    a: "Non : Make, Zapier ou n8n s'utilisent sans savoir coder. Le vrai prérequis, c'est de savoir exactement ce qu'on veut automatiser, sinon l'outil automatise du chaos, plus vite."
   - q: "Combien de temps ça prend avant de voir les premiers résultats ?"
-    a: "Sur un process bien cartographié, les premiers gains sont visibles au premier cycle suivant. L'étape la plus longue, c'est le diagnostic, pas la mise en place. Une demi-journée d'entretien bien menée peut débloquer des semaines de travail inutile."
+    a: "Sur un process bien cartographié, les premiers gains sont visibles dès le cycle suivant. L'étape la plus longue, c'est le diagnostic, pas la mise en place : une demi-journée d'entretien bien menée peut débloquer des semaines de travail inutile."
   - q: "Quels sont les problèmes répétitifs les plus courants dans une PME ?"
-    a: "Les plus fréquents : ressaisie de données entre outils, relances clients manuelles, rapports assemblés à la main, exports Excel pour alimenter un autre tableur, envoi d'emails quasi identiques. Ce sont des tâches sans valeur ajoutée, chronophages, propices aux erreurs. Le point commun : elles n'existent que parce que personne n'a jamais posé le process à plat. Une fois formalisées, elles disparaissent souvent d'elles-mêmes."
+    a: "La ressaisie de données entre logiciels, les relances clients manuelles, les rapports assemblés à la main, les exports Excel pour alimenter un autre tableur, les mails quasi identiques. Elles n'existent que parce que personne n'a jamais posé le process à plat, et une fois formalisées, elles disparaissent souvent d'elles-mêmes."
 ---
 
-Pour automatiser les tâches répétitives de ton entreprise, commence par cartographier ton process avant de chercher un outil. **C'est dans cet ordre-là que ça marche. Jamais dans l'autre.**
+Pour automatiser les tâches répétitives de ta PME, commence par cartographier ton process avant de chercher un outil. **C'est dans cet ordre-là que ça marche. Jamais dans l'autre.**
 
-La plupart des dirigeants font l'inverse. Ils cherchent l'outil d'abord. Et c'est exactement pour ça que ça rate.
+La plupart des patrons font l'inverse. Ils cherchent l'outil d'abord. Et c'est exactement pour ça que ça rate.
 
 ## L'erreur qui tue l'automatisation dès le départ
 
@@ -53,7 +53,7 @@ Fais-lui lister chaque étape, dans l'ordre. Et pour chacune, trois questions :
 
 Ce dernier point est le plus révélateur. Souvent, la personne qui fait la tâche sait très bien qu'elle ne sert à rien. Elle attend juste qu'on lui donne la permission de ne plus la faire.
 
-Autre piège à ce stade : interviewer le manager plutôt que l'opérationnel. Le manager te dira comment le process est censé fonctionner. L'opérationnel te dira comment il fonctionne vraiment : les détours, les contournements, les fichiers "temporaires" qui durent depuis trois ans. C'est lui qui a la vraie information.
+Autre piège à ce stade : interroger le chef de service plutôt que la personne qui fait le travail. Le chef de service te dira comment le process est censé fonctionner. Celle qui fait le travail te dira comment il fonctionne vraiment : les détours, les contournements, les fichiers "temporaires" qui durent depuis trois ans. C'est elle qui a la vraie information.
 
 Ce décalage entre ce que tu crois et ce qui se passe réellement, c'est le sujet de [cet article sur les process invisibles](/blog/process-invisibles-pme/). Si tu penses que tes employés sont lents, lis aussi [celui-ci](/blog/ton-employe-pas-trop-lent-workflow/) avant de conclure.
 
@@ -75,13 +75,13 @@ Regroupe les tâches de ta liste en lots logiques : des étapes qui vont naturel
 
 Tu sais exactement ce que tu cherches. L'outil répond ou ne répond pas.
 
-![Timeline d'un process avec les étapes chronophages identifiées pour automatisation](diagnostic-process.webp)
+![Frise d'un process avec les étapes chronophages identifiées pour automatisation](diagnostic-process.webp)
 
 ## Ce que ça donne sur le terrain
 
-Exemple récent à La Réunion : une entreprise devait produire un catalogue papier et digital, deux fois par mois. Deux personnes mobilisées, cinq jours chacune à chaque cycle. Dix jours par mois pour sortir un catalogue.
+Exemple récent à La Réunion : une entreprise devait produire un catalogue papier et en ligne, deux fois par mois. Deux personnes mobilisées, cinq jours chacune à chaque cycle. Dix jours par mois pour sortir un catalogue.
 
-En cartographiant le process avec le responsable, le constat tombe vite : le début fonctionne bien, la fin aussi. Le problème, c'est le milieu. Des échanges via Excel entre les deux personnes, des infos à ressaisir depuis d'autres outils, des photos à retrouver dans des archives, des URLs à copier-coller à la main depuis le site e-commerce.
+En cartographiant le process avec le responsable, le constat tombe vite : le début fonctionne bien, la fin aussi. Le problème, c'est le milieu. Des échanges via Excel entre les deux personnes, des infos à ressaisir depuis d'autres outils, des photos à retrouver dans des archives, des liens à copier-coller à la main depuis le site e-commerce.
 
 **Six jours sur dix perdus sur des tâches sans aucune valeur ajoutée.** Pas parce que les gens travaillaient mal. Parce que personne n'avait jamais posé le process à plat.
 
@@ -91,10 +91,10 @@ Pas grâce à un outil miracle. Grâce à un diagnostic qui a identifié exactem
 
 C'est ce que je fais systématiquement dans mes missions d'[optimisation de process](/services/optimisation-process/). Avant de parler d'un seul outil.
 
----
-
-Si tu veux savoir d'où vient le problème dans ton organisation, l'article sur [Excel et les process](/blog/excel-nest-pas-un-outil-de-gestion/) donne une bonne première lecture. Et si tu te demandes si l'IA peut t'aider à aller plus vite, [lis ça avant](/blog/automatisation-vs-ia-pme/) — la réponse va te surprendre.
-
-Tu veux qu'on fasse ce diagnostic sur ton process ? [Contacte-moi](/contact/). Une heure suffit souvent pour identifier où tu perds le plus de temps.
+Si tu veux savoir d'où vient le problème dans ton organisation, l'article sur [Excel et les process](/blog/excel-nest-pas-un-outil-de-gestion/) donne une bonne première lecture. Et si tu te demandes si l'IA peut t'aider à aller plus vite, [lis ça avant](/blog/automatisation-vs-ia-pme/) : la réponse va te surprendre.
 
 {{< faq >}}
+
+{{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
+{{< /cta >}}

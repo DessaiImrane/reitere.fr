@@ -18,28 +18,28 @@ faq:
   - q: "C'est quoi la méthode des 5 pourquoi ?"
     a: "La méthode des 5 pourquoi consiste à trouver la cause racine d'un problème en posant la question \"Pourquoi ?\" à répétition, au moins 5 fois. À chaque réponse, tu creuses un niveau plus profond, jusqu'à l'origine réelle du problème et non plus le symptôme visible."
   - q: "Comment savoir si c'est un problème de process ou de compétence ?"
-    a: "Regarde d'abord le workflow avant la personne. Cartographie ce qu'elle doit faire concrètement pour accomplir sa tâche : combien d'outils, combien d'étapes manuelles, d'où viennent les informations. Si le chemin est long et tortueux, c'est le process le problème. Si le chemin est simple et que ça coince quand même, alors seulement tu regardes la personne."
-  - q: "Par où commencer pour analyser un workflow ?"
-    a: "Commence par la fin. Quel est le livrable attendu ? Quelles informations faut-il pour le produire ? D'où viennent ces informations ? Combien d'étapes manuelles faut-il pour les collecter et les consolider ? En 30 minutes, le chemin critique devient visible."
+    a: "Regarde le process avant la personne : combien de logiciels, combien d'étapes manuelles, d'où viennent les informations. Si le chemin est long et tortueux, c'est le process le problème ; s'il est simple et que ça coince quand même, alors seulement tu regardes la personne."
+  - q: "Par où commencer pour analyser un process ?"
+    a: "Commence par la fin : le livrable attendu, les informations qu'il faut pour le produire, d'où elles viennent et combien d'étapes manuelles il faut pour les collecter et les consolider. En 30 minutes, le chemin critique devient visible."
   - q: "Combien de temps prend un audit de process ?"
-    a: "Pour un workflow simple, une demi-journée suffit pour cartographier et identifier les points de friction. Pour un process qui implique plusieurs équipes et plusieurs outils, comptez 2 à 3 jours de travail, diagnostic inclus."
+    a: "Pour un process simple, une demi-journée suffit pour cartographier et identifier les points de friction. Pour un process qui implique plusieurs équipes et plusieurs logiciels, compte 2 à 3 jours de travail, diagnostic inclus."
   - q: "Quand faire appel à un consultant pour un problème de process ?"
-    a: "Quand tu n'arrives plus à voir le problème de l'intérieur. C'est souvent le cas : quand on est dans le même process depuis des mois, on ne voit plus ce qui est cassé. Un regard extérieur identifie en quelques heures ce que l'équipe n'a plus la distance pour voir."
+    a: "Quand tu n'arrives plus à voir le problème de l'intérieur, ce qui arrive vite quand on est dans le même process depuis des mois. Un regard extérieur identifie en quelques heures ce que l'équipe n'a plus la distance pour voir."
 ---
 
-Si quelqu'un dans ton équipe te semble trop lent, c'est rarement un problème de compétence. **C'est presque toujours un problème de workflow.** Voici pourquoi. Et comment le trouver.
+Si quelqu'un dans ton équipe te semble trop lent, c'est rarement un problème de compétence. **C'est presque toujours un problème de workflow** (le chemin que suit le travail avant d'arriver jusqu'à lui). Voici pourquoi. Et comment le trouver.
 
 ## Le réflexe classique qui coûte cher
 
-Tu as un collaborateur qui prend trop de temps sur une tâche. Ta première réaction ?
+Tu as quelqu'un dans ton équipe qui prend trop de temps sur une tâche. Ta première réaction ?
 
 "Il manque de rigueur." Ou : "Il faudrait quelqu'un de plus rapide."
 
-Tu penses que c'est un problème de "people".
+Tu penses que c'est un problème humain.
 
 C'est le réflexe le plus naturel. Et le plus coûteux.
 
-Parce que pendant que tu cherches comment améliorer la personne, le vrai problème grossit dans l'ombre. Et il continuera de grossir même si tu changes de collaborateur.
+Parce que pendant que tu cherches comment améliorer la personne, le vrai problème grossit dans l'ombre. Et il continuera de grossir même si tu remplaces la personne.
 
 **Changer la personne sans changer le process, c'est repeindre les murs d'une maison qui fuit.**
 
@@ -47,7 +47,7 @@ Parce que pendant que tu cherches comment améliorer la personne, le vrai probl�
 
 Le problème, c'est rarement la personne. **C'est le chemin que l'information doit parcourir pour arriver jusqu'à elle.**
 
-La plupart des lenteurs que je vois en entreprise viennent d'une combinaison de ces trois facteurs :
+La plupart des lenteurs que je vois dans les PME à La Réunion viennent d'une combinaison de ces trois facteurs :
 - L'information vient de plusieurs endroits différents
 - Elle arrive au compte-goutte, pas en une fois
 - Des étapes manuelles sont nécessaires pour la collecter, la reformater, la valider
@@ -58,9 +58,9 @@ Quand tu ne regardes que la personne, tu touches au symptôme. Pas à la cause.
 
 ## Ce que j'ai vu chez un client : le cas du DAF
 
-Un dirigeant me contacte. Il est convaincu que son DAF est le problème.
+Un patron me contacte. Il est convaincu que son DAF est le problème.
 
-"Mon DAF met 3 mois à sortir un dashboard financier. Il faut automatiser la compta."
+"Mon DAF met 3 mois à sortir un tableau de bord financier. Il faut automatiser la compta."
 
 Je lui demande si quelqu'un a déjà regardé comment les données arrivent jusqu'au DAF.
 
@@ -68,7 +68,7 @@ Silence.
 
 ### On remonte à l'origine : les 5 Pourquoi
 
-Le dashboard a 3 mois de retard. Pourquoi ?
+Le tableau de bord a 3 mois de retard. Pourquoi ?
 
 Le DAF doit rassembler toutes les infos à la main : frais généraux, payes, factures fournisseurs.
 
@@ -88,11 +88,11 @@ Parce que quand le process a été mis en place il y a 6 ans, ça prenait "juste
 
 ### Ce qu'on a trouvé
 
-La vraie cause : des factures éparpillées entre la boîte mail, un drive et un logiciel de compta vieillissant. Plus une saisie manuelle pour chaque entrée.
+La vraie cause : des factures éparpillées entre la boîte mail, un dossier en ligne et un logiciel de compta vieillissant. Plus une saisie manuelle pour chaque entrée.
 
 Le DAF n'était pas lent. Il héritait d'un process pensé pour une entreprise 3 fois plus petite, qui n'avait jamais été revu depuis.
 
-On a identifié 12 actions manuelles à automatiser. Le dirigeant a compris que le problème n'était pas son DAF. C'était son workflow.
+On a identifié 12 actions manuelles à automatiser. Le patron a compris que le problème n'était pas son DAF. C'était son process.
 
 ## La méthode : les 5 Pourquoi appliqués au process
 
@@ -104,7 +104,7 @@ Ce n'est pas une méthode compliquée. C'est une discipline : le réflexe de ne 
 
 La première réponse sera presque toujours "c'est la personne". La vraie réponse arrive au 3e ou 4e Pourquoi.
 
-Dans le cas du DAF, le dirigeant était prêt à investir dans un nouveau logiciel de compta. Sans le diagnostic, il aurait changé l'outil, laissé le process intact, et se serait retrouvé avec le même retard six mois plus tard. Et un outil de plus à gérer.
+Dans le cas du DAF, le patron était prêt à investir dans un nouveau logiciel de compta. Sans le diagnostic, il aurait changé l'outil, laissé le process intact, et se serait retrouvé avec le même retard six mois plus tard. Et un outil de plus à gérer.
 
 C'est ce qu'on appelle les [5 pourquoi](https://fr.wikipedia.org/wiki/Cinq_pourquoi) : une méthode née chez Toyota qui s'applique exactement au même problème que tu as dans ton équipe aujourd'hui.
 
@@ -112,16 +112,18 @@ C'est ce qu'on appelle les [5 pourquoi](https://fr.wikipedia.org/wiki/Cinq_pourq
 
 Prends le dernier a priori que tu as eu sur quelqu'un dans ton équipe qui te semble trop lent.
 
-Pose-toi cette question : est-ce que j'ai regardé son workflow, ou j'ai seulement regardé son résultat ?
+Pose-toi cette question : est-ce que j'ai regardé son process, ou j'ai seulement regardé son résultat ?
 
 Ensuite, trace le chemin que l'information doit parcourir pour arriver jusqu'à lui. Depuis le point de départ jusqu'à la tâche finale. Note à chaque étape : d'où vient l'info, sous quel format, et combien d'actions sont nécessaires avant qu'elle soit utilisable. Demande-toi Pourquoi à chaque blocage.
 
 Tu vas probablement trouver quelque chose que tu n'avais pas vu. Et cette découverte vaut beaucoup plus qu'un recrutement ou une formation.
 
-C'est exactement ce que je fais avec mes clients lors d'un [audit de process](/services/optimisation-process/). Si tu veux qu'on regarde ça ensemble sur ton organisation, [contacte-moi](/contact/).
-
----
+C'est exactement ce que je fais avec mes clients lors d'un [audit de process](/services/optimisation-process/).
 
 Une fois les vrais problèmes identifiés, la prochaine étape c'est de les éliminer. L'article sur [l'automatisation des tâches répétitives](/blog/automatiser-taches-repetitives-pme/) montre comment faire sans se noyer dans les outils.
 
 {{< faq >}}
+
+{{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
+{{< /cta >}}

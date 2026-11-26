@@ -23,14 +23,14 @@ faq:
   - q: "Comment répartir l'octroi de mer entre les articles d'un conteneur ?"
     a: "Au prorata de la valeur de chaque ligne de commande, pas du nombre de commandes ni du nombre de colis. Un article à 800 € porte une part de frais proportionnelle à sa valeur, pas la même part qu'un article à 3 €."
   - q: "Pourquoi diviser la facture du transitaire par le nombre de commandes est faux ?"
-    a: "Parce que ça fait porter le même montant de frais à un article cher et à un article bon marché. Le vase à 3 € paie autant que le canapé à 800 €, et ta marge réelle sur chacun devient invisible."
+    a: "Parce que ça fait porter le même montant de frais à un article cher et à un article bon marché. L'article à 3 € paie autant que l'article à 800 €, et ta marge réelle sur chacun devient invisible."
   - q: "Faut-il changer de logiciel de gestion pour calculer son coût de revient ?"
     a: "Non. Sage, Cegid, un AS400 ou même Excel peuvent porter ce calcul, à condition de le construire une fois correctement plutôt que de le refaire à la main à chaque conteneur."
 ---
 
 Le coût de revient à l'import se calcule en additionnant tous les frais réels d'un conteneur (achat, fret, assurance, douane, octroi de mer, octroi régional, frais bancaires), puis en répartissant cette somme au prorata de la valeur de chaque article. À La Réunion, la plupart des boîtes qui importent s'arrêtent avant ce calcul, et ne savent jamais si elles gagnent de l'argent sur tel article ou sur tel autre.
 
-La facture du transitaire, tu la divises par le nombre de commandes dans le conteneur. Le vase à 3 € porte les mêmes frais que le canapé à 800 €. C'est la méthode la plus répandue à La Réunion. C'est aussi la plus fausse.
+La facture du transitaire, tu la divises par le nombre de commandes dans le conteneur. L'article à 3 € porte les mêmes frais que l'article à 800 €. C'est la méthode la plus répandue à La Réunion. C'est aussi la plus fausse.
 
 ![Bureau sombre avec des factures d'import et une calculatrice, conteneur en arrière-plan](feature.webp)
 
@@ -42,7 +42,7 @@ Une épicerie fine qui importe, 3 000 références et 50 fournisseurs, n'avait a
 
 ## Étape 1 : lister tous les frais réels du conteneur, pas juste la facture fournisseur
 
-Avant de répartir quoi que ce soit, il faut réunir toutes les factures liées à un même conteneur : facture fournisseur, facture transitaire, avis de douane, relevé de change bancaire. Dans un magasin de meubles avec deux points de vente, sur AS400, ce récapitulatif se faisait à la main : extraire les infos du transitaire, traiter les mails de dédouanement (formatés différemment selon le transitaire), suivre les acomptes déjà versés. Un jour de travail par semaine, pour une seule personne.
+Avant de répartir quoi que ce soit, il faut réunir toutes les factures liées à un même conteneur : facture fournisseur, facture transitaire, avis de douane, relevé de change bancaire. Dans une enseigne retail avec deux points de vente, sur AS400, ce récapitulatif se faisait à la main : extraire les infos du transitaire, traiter les mails de dédouanement (formatés différemment selon le transitaire), suivre les acomptes déjà versés. Un jour de travail par semaine, pour une seule personne.
 
 **Sans la liste complète des frais réels, tout calcul de marge en aval est faux, quel que soit le logiciel qui l'exécute.**
 
@@ -50,7 +50,7 @@ Avant de répartir quoi que ce soit, il faut réunir toutes les factures liées 
 
 Une fois la somme des frais annexes connue, il reste à la répartir sur chaque article du conteneur. La bonne clé, c'est la valeur de chaque ligne de commande, pas le nombre de commandes ni le nombre de colis.
 
-Dans le même magasin de meubles, ce calcul se faisait à la main, après coup, à chaque conteneur : impressions papier, traits au stylo pour scinder les traites, recalculs ligne par ligne, plusieurs factures recréées dans l'AS400 avec les mêmes informations retapées. Le calcul existait. Mais personne n'avait le temps de le refaire pour vérifier une marge une fois la commande déjà passée.
+Dans la même enseigne, ce calcul se faisait à la main, après coup, à chaque conteneur : impressions papier, traits au stylo pour scinder les traites, recalculs ligne par ligne, plusieurs factures recréées dans l'AS400 avec les mêmes informations retapées. Le calcul existait. Mais personne n'avait le temps de le refaire pour vérifier une marge une fois la commande déjà passée.
 
 ## Étape 3 : garder le taux de change réel, facture par facture
 
@@ -60,7 +60,7 @@ La bonne pratique : stocker le taux de change effectif de chaque facture au mome
 
 ## L'erreur qui coûte le plus cher : ne rien calculer du tout
 
-La pire situation n'est pas un mauvais calcul de coût de revient. C'est l'absence totale de calcul. La dirigeante de cette épicerie fine regarde un seul chiffre chaque matin : le solde de sa banque. Pas sa marge brute réelle, pas les produits à mettre en promotion, pas le nombre de ventes de la veille. Ces trois informations, elle voudrait les voir chaque lundi matin. Aujourd'hui, aucun tableau de bord ne les lui donne.
+La pire situation n'est pas un mauvais calcul de coût de revient. C'est l'absence totale de calcul. La patronne de cette épicerie fine regarde un seul chiffre chaque matin : le solde de sa banque. Pas sa marge brute réelle, pas les produits à mettre en promotion, pas le nombre de ventes de la veille. Ces trois informations, elle voudrait les voir chaque lundi matin. Aujourd'hui, aucun tableau de bord ne les lui donne.
 
 **Tu ne sais pas si tu gagnes de l'argent sur un conteneur tant que personne n'a calculé son coût de revient réel.**
 

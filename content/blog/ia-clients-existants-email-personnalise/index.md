@@ -16,16 +16,18 @@ pipeline:
   fb_posts: 5
 faq:
   - q: "C'est quoi l'analyse RFM ?"
-    a: "RFM signifie Récence, Fréquence, Montant. C'est une méthode pour classer tes clients selon trois critères : quand a eu lieu leur dernière commande, à quelle fréquence ils commandent, et quel est leur panier moyen. Les clients avec un bon score RFM sont les plus susceptibles de racheter, et les plus rentables à recontacter en premier."
+    a: "RFM signifie Récence, Fréquence, Montant : une méthode pour classer tes clients selon la date de leur dernière commande, leur fréquence de commande et leur panier moyen. Les clients avec un bon score RFM sont les plus susceptibles de racheter, et les plus rentables à recontacter en premier."
   - q: "Quelle IA utiliser pour analyser mes données clients ?"
-    a: "ChatGPT, Claude ou Gemini : les trois fonctionnent. Pour analyser un fichier de commandes, Claude et ChatGPT (version payante) gèrent bien les tableurs collés directement dans le chat. Pour les fichiers volumineux, exporte en CSV et colle les premières lignes avec une explication du contexte."
+    a: "ChatGPT, Claude ou Gemini fonctionnent tous les trois, et Claude comme ChatGPT (version payante) gèrent bien un fichier de commandes collé directement dans le chat. Pour un gros fichier, exporte en CSV et colle les premières lignes avec une explication du contexte."
   - q: "Et si mes données clients sont dispersées dans plusieurs outils ?"
-    a: "Commence par un seul outil : celui où tu as le plus d'historique. Une extraction partielle vaut mieux qu'une extraction parfaite qui n'arrive jamais. Une fois la méthode rodée sur une source, tu ajoutes les autres."
+    a: "Commence par un seul logiciel, celui où tu as le plus d'historique : une extraction partielle vaut mieux qu'une extraction parfaite qui n'arrive jamais. Une fois la méthode rodée sur une source, tu ajoutes les autres."
   - q: "Est-ce que l'IA peut envoyer les emails à ma place ?"
-    a: "Non, et c'est mieux comme ça. L'IA rédige le mail, tu le relis, tu l'ajustes si besoin, tu l'envoies. Le contrôle humain avant l'envoi évite les erreurs et garde le ton juste. L'objectif n'est pas d'automatiser l'envoi : c'est de ne plus jamais envoyer un mail générique."
+    a: "Non, et c'est mieux comme ça : l'IA rédige le mail, tu le relis, tu l'ajustes et tu l'envoies, ce qui évite les erreurs et garde le ton juste. L'objectif n'est pas d'automatiser l'envoi, c'est de ne plus jamais envoyer un mail générique."
   - q: "Combien de temps prend cette méthode pour 10 clients ?"
-    a: "Première fois : comptez une heure. Export des données, prise en main de l'IA, mise au point des prompts. À partir de la deuxième session, 20 à 30 minutes pour 10 clients. Le plus long, c'est l'export initial. Après, c'est un rythme hebdomadaire facile à tenir."
+    a: "La première fois, compte une heure : l'export des données (le plus long), la prise en main de l'IA, la mise au point des consignes. Ensuite, 20 à 30 minutes pour 10 clients, un rythme hebdomadaire facile à tenir."
 ---
+
+Pour recontacter tes meilleurs clients avec l'IA, exporte ton historique de commandes, demande à l'IA de les classer par récence, fréquence et montant, puis de rédiger un email personnalisé pour chacun de tes 10 meilleurs. Tu relis, tu ajustes, tu envoies.
 
 Tu as des clients qui achètent régulièrement, depuis des années. **Ils te génèrent du chiffre d'affaires sans que tu aies à courir après eux.** Et c'est exactement pour ça que tu ne t'en occupes pas assez.
 
@@ -37,7 +39,7 @@ Tes clients existants, eux, passent commande par habitude. Personne ne les appel
 
 **Entre les nouveaux clients que tu cherches et les anciens qui partent en silence, il y a un trou. Et c'est là que ton chiffre d'affaires disparaît.**
 
-Un patron de PME me le dit clairement : "Je m'occupe pas assez de mes clients fidèles." Il sait. Mais il ne sait pas par où commencer. Et encore moins quoi leur proposer sans passer pour un spammeur.
+Un patron de PME à La Réunion me le dit clairement : "Je m'occupe pas assez de mes clients fidèles." Il sait. Mais il ne sait pas par où commencer. Et encore moins quoi leur proposer sans passer pour un spammeur.
 
 ## Ce que la plupart font (et pourquoi ça ne marche pas)
 
@@ -45,7 +47,7 @@ La réponse habituelle, c'est la newsletter. Même email, mêmes produits, pour 
 
 Ça marche pas. Pas parce que l'email ne fonctionne plus : parce que l'email générique n'a jamais fonctionné. Un client qui commande des pièces mécaniques chaque trimestre depuis 3 ans n'a rien à faire d'une promo sur du matériel de bureau.
 
-L'autre réflexe : "Il faudrait un logiciel de prédiction." CRM avancé, outil de scoring, solution à 500€/mois.
+L'autre réflexe : "Il faudrait un logiciel de prédiction." CRM (logiciel de suivi clients) avancé, outil de notation des clients, logiciel à 500€/mois.
 
 Non. **Tu as déjà les données qu'il faut. Il manque juste la méthode pour les exploiter.**
 
@@ -55,7 +57,7 @@ Tu n'as besoin de rien d'autre que tes données de commandes et une IA gratuite 
 
 ### Étape 1 : Exporte tes données
 
-Va dans ton outil de gestion (ERP, CRM, Excel, logiciel de facturation, peu importe) et exporte l'historique de commandes de tes clients.
+Va dans ton logiciel de gestion (ERP), ton CRM, ton Excel ou ton logiciel de facturation, peu importe, et exporte l'historique de commandes de tes clients.
 
 Les colonnes minimales : nom du client, date de commande, produits achetés, montants.
 
@@ -83,7 +85,7 @@ Pour chacun des 10, demande à l'IA d'analyser leur profil et de te dire :
 
 - Est-ce qu'il est temps pour un réassort, vu la fréquence habituelle ?
 - Quels produits pourraient l'intéresser vu ce qu'il a acheté ?
-- Quelle promo en cours matche avec son historique ?
+- Quelle promo en cours correspond à son historique ?
 
 Tu obtiens une suggestion personnalisée par client. Pas une intuition. Une analyse basée sur ses données réelles.
 
@@ -107,12 +109,14 @@ Puis tu recommences un nouveau cycle. Et tu compares : est-ce que les mêmes cli
 
 **Bonus** : demande à l'IA de regrouper tes clients par catégorie de comportement. Ces profils te servent aussi pour cibler tes publicités sur les réseaux. Même matière première, autre usage.
 
-Pour commencer : extrais les commandes de tes 3 clients qui t'ont généré le plus de CA ces 6 derniers mois. Fais l'analyse toi-même, à la main. Si tu sais le faire, l'IA sait le faire. Et dix fois plus vite.
+Pour commencer : extrais les commandes de tes 3 clients qui t'ont généré le plus de chiffre d'affaires ces 6 derniers mois. Fais l'analyse toi-même, à la main. Si tu sais le faire, l'IA sait le faire. Et dix fois plus vite.
 
-Si tu veux aller plus loin et automatiser tout le process, c'est ce que je mets en place lors de mes missions d'[optimisation de process](/services/optimisation-process/). [Contacte-moi](/contact/) pour qu'on regarde ce qui est faisable dans ton cas.
-
----
+Si tu veux aller plus loin et automatiser tout le process, c'est ce que je mets en place lors de mes missions d'[optimisation de process](/services/optimisation-process/).
 
 L'article sur l'[automatisation des tâches répétitives](/blog/automatiser-taches-repetitives-pme/) couvre la suite logique : une fois ta méthode de relance rodée, comment l'automatiser pour ne plus y penser.
 
 {{< faq >}}
+
+{{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
+{{< /cta >}}

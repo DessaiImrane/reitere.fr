@@ -19,13 +19,13 @@ faq:
   - q: "Combien de temps prend la préparation des commandes fournisseurs dans un grossiste ?"
     a: "Chez un grossiste que j'accompagne, c'est deux jours complets par semaine pour un poste : mercredi après-midi, jeudi entier, vendredi. Et ça, c'est avant même de commencer à décider quoi commander."
   - q: "Pourquoi ma moyenne de ventes me fait sous-commander ?"
-    a: "Parce qu'elle compte les semaines de rupture comme des semaines à zéro vente. Un article en rupture 3 semaines sur 12 aura une moyenne artificiellement basse, alors que la vraie demande était là. Il faut exclure ces semaines du calcul, pas les compter comme normales."
+    a: "Parce qu'elle compte les semaines de rupture comme des semaines à zéro vente : un article en rupture 3 semaines sur 12 aura une moyenne artificiellement basse, alors que la vraie demande était là. Il faut exclure ces semaines du calcul, pas les compter comme normales."
   - q: "Peut-on automatiser les commandes fournisseurs sans changer de logiciel de gestion ?"
     a: "Oui, et c'est même la manière la plus rapide de gagner du temps. On se branche en lecture sur Cegid, Sage ou AS400, on refait le calcul correctement à côté, et le logiciel reste celui que l'équipe connaît."
   - q: "Faut-il continuer à valider les commandes fournisseurs par mail ?"
-    a: "Non. Un fichier par fournisseur envoyé par mail, commenté, renvoyé, revalidé, ça multiplie les allers-retours sans ajouter de contrôle réel. Une interface unique où le patron voit tout, valide et commente en ligne remplace cette boucle."
+    a: "Non : un fichier par fournisseur envoyé par mail, commenté, renvoyé, revalidé, ça multiplie les allers-retours sans ajouter de contrôle réel. Une interface unique où le patron voit tout, valide et commente en ligne remplace cette boucle."
   - q: "Combien coûte l'automatisation des commandes fournisseurs ?"
-    a: "Ça dépend du contexte : nombre de fournisseurs, de références, complexité du calcul actuel. Un prix sans ce contexte ne veut rien dire, c'est justement le rôle du diagnostic de le chiffrer. Pour ce grossiste (plusieurs dizaines de fournisseurs, centaines de références), le chantier a été signé 6 000 € : connexion au logiciel, moteur de calcul, interface de validation. L'objectif est mesurable : passer de deux jours à moins de deux heures."
+    a: "Le prix se fixe au diagnostic, selon le nombre de fournisseurs, de références et la complexité du calcul actuel. Pour ce grossiste (plusieurs dizaines de fournisseurs, des centaines de références), le chantier couvre la connexion au logiciel, le moteur de calcul et l'interface de validation, avec un objectif mesurable : passer de deux jours à moins de deux heures."
 ---
 
 Automatiser les commandes fournisseurs d'un grossiste, ça commence rarement par un logiciel. Ça commence par corriger un calcul de moyenne qui ment depuis des années, puis par sortir le patron de la boucle mail. Un grossiste qui livre la grande distribution vient de signer ce chantier pour récupérer deux jours de travail par semaine.
@@ -36,7 +36,7 @@ Chaque mercredi après-midi, quelqu'un dans l'équipe achats ouvre Cegid et comm
 
 ## Le contexte : un grossiste qui vit et meurt sur ses commandes
 
-C'est un grossiste qui livre la grande distribution, sur Cegid depuis des années. Pas de DSI, pas de service informatique : le logiciel tourne, l'équipe achats compense le reste avec Excel.
+C'est un grossiste réunionnais qui livre la grande distribution, sur Cegid depuis des années. Pas de DSI, pas de service informatique : le logiciel tourne, l'équipe achats compense le reste avec Excel.
 
 Chaque semaine, il faut décider quoi commander à quel fournisseur, pour quelle quantité, sans rompre le stock et sans en avoir trop. C'est le cœur du métier. Et c'est justement là que la boîte perd deux jours de travail avant même d'avoir pris la moindre décision.
 
@@ -66,7 +66,7 @@ Une boucle mail par fournisseur, chaque semaine. Le patron ne fait pas ça parce
 
 ## Ce qu'on met en place
 
-Le chantier signé (6 000 €, démarrage le 2026-09-09) touche trois points, pas plus :
+Le chantier signé (démarrage en septembre 2026) touche trois points, pas plus :
 
 - Une connexion en lecture à Cegid, pour arrêter les extractions et les décalages de colonnes à la main.
 - Un moteur de moyennes qui exclut automatiquement les semaines de rupture et les ventes exceptionnelles, avec un suivi hebdomadaire ou mensuel choisi selon l'ancienneté de la gamme.

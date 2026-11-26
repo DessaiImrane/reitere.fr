@@ -19,16 +19,18 @@ faq:
   - q: "Comment savoir quels process coûtent le plus cher dans ma PME ?"
     a: "En t'asseyant avec chaque personne et en lui demandant de te montrer, en direct, comment elle fait sa tâche la plus répétitive. Le chiffre sort presque toujours en une heure : personne ne l'avait jamais demandé."
   - q: "Pourquoi mon équipe ne m'a jamais signalé ces problèmes ?"
-    a: "Parce que le résultat final est correct. Les virements partent, les commissions sont payées, la caisse est fermée le soir. Tant que la destination est atteinte, personne ne pense à se plaindre du chemin."
+    a: "Parce que le résultat final est correct : les virements partent, les commissions sont payées, la caisse est fermée le soir. Tant que la destination est atteinte, personne ne pense à se plaindre du chemin."
   - q: "Faut-il changer de logiciel de gestion pour corriger ces process ?"
-    a: "Pas forcément, et souvent pas en premier. Un satellite branché en lecture sur ton logiciel actuel (Sage, Cegid, AS400) corrige la plupart de ces points sans toucher à l'existant."
+    a: "Pas forcément, et souvent pas en premier. Un petit programme qui lit les données de ton logiciel actuel (Sage, Cegid, AS400) sans les modifier corrige la plupart de ces points sans toucher à l'existant."
   - q: "Ces process coûtent combien exactement ?"
-    a: "Ça dépend de ta boîte, mais les ordres de grandeur qu'on retrouve à chaque audit : plusieurs jours par mois sur les virements et le lettrage, 1,5 à 2,5 % du chiffre d'affaires sur des points fidélité mal gérés, plusieurs milliers d'euros par an sur une négociation jamais faite faute de temps."
+    a: "Les ordres de grandeur trouvés en audit : plusieurs jours par mois sur les virements et le lettrage, 1,5 à 2,5 % du chiffre d'affaires sur des points fidélité mal gérés, plusieurs milliers d'euros par an sur une négociation jamais faite faute de temps."
   - q: "Un tableau de bord suffit-il à régler ça ?"
-    a: "Non. Un tableau de bord affiche un résultat, il ne corrige pas le calcul qui le produit. Si le calcul en amont est faux ou fait à la main, le tableau de bord affiche juste une erreur plus vite."
+    a: "Non : un tableau de bord affiche un résultat, il ne corrige pas le calcul qui le produit. Si le calcul en amont est faux ou fait à la main, il affiche juste une erreur plus vite."
 ---
 
-Les process qui coûtent le plus cher à une PME ne sont presque jamais ceux qu'on surveille. Ce sont les cinq qui tournent en silence, remontés une seule fois, lors d'un audit, jamais avant. Tes clients gagnent des points fidélité sur des articles que tu as bradés. Entre 1,5 et 2,5 % de ton chiffre d'affaires part comme ça. Tu ne l'as jamais vu.
+Les 5 process qui coûtent le plus cher à une PME sont ceux que personne ne surveille : virements fournisseurs, commissions vendeurs, points fidélité, balance client et contrôle de gestion. Aucun ne se voit dans le compte de résultat. Certains coûtent des jours de travail chaque mois, et les points fidélité seuls, entre 1,5 et 2,5 % du chiffre d'affaires.
+
+Ils tournent en silence et ne remontent qu'une fois, lors d'un audit, jamais avant. Tes clients gagnent des points fidélité sur des articles que tu as bradés. Tu ne l'as jamais vu.
 
 ![Bureau sombre avec cinq piles de dossiers empilés, une seule éclairée par une lampe, les autres dans la pénombre](feature.webp)
 
@@ -52,7 +54,7 @@ Calculer les commissions de tes vendeurs, c'est un rituel mensuel qui mobilise d
 
 Dans le même magasin, le DAF partait de deux extractions issues de deux logiciels différents, pour trois groupes de familles à taux différents, des primes sur grille, des exceptions propres à chaque vendeur, un cas particulier pour les responsables de magasin, une validation manuelle du patron, puis trois colonnes à reporter à la paie. Chaque mois, avec des erreurs de calcul fréquentes qui remontaient après coup.
 
-Un satellite de calcul, branché en lecture sur l'AS400, porte aujourd'hui les barèmes et les exceptions et tourne en production. Le DAF ne recompose plus le calcul à la main chaque mois.
+Un petit programme de calcul, qui lit les données de l'AS400 sans les modifier, porte aujourd'hui les barèmes et les exceptions. Il est en service. Le DAF ne recompose plus le calcul à la main chaque mois.
 
 Le problème n'était pas la complexité du barème en soi. Trois taux, des exceptions, des cas particuliers, une boîte peut vivre avec. Le problème, c'était de refaire ce calcul à la main, chaque mois, avec le risque d'erreur qui va avec. Une erreur de commission, ça se répare en rassurant un vendeur mécontent. Ça ne se répare jamais en silence.
 
@@ -80,7 +82,7 @@ Quatre heures par mois, ramené à l'année, c'est presque une semaine entière 
 
 Personne dans ta boîte n'a le temps de faire du contrôle de gestion, alors personne ne négocie plus le dollar, et personne ne compte les pénalités.
 
-Dans le même magasin toujours, le DAF n'avait pas le temps de suivre le shipping négocié, ni les conteneurs rendus en retard (qui génèrent des pénalités), ni le double référencement d'un même article à deux prix d'achat différents (qui fausse les inventaires), ni les provisions de stock. La négociation du taux de change du dollar n'avait jamais été faite faute de temps. Le gain potentiel rien que sur ce dernier point : environ 20 000 € par an.
+Dans le même magasin toujours, le DAF n'avait pas le temps de suivre le fret négocié, ni les conteneurs rendus en retard (qui génèrent des pénalités), ni le double référencement d'un même article à deux prix d'achat différents (qui fausse les inventaires), ni les provisions de stock. La négociation du taux de change du dollar n'avait jamais été faite faute de temps. Le gain potentiel rien que sur ce dernier point : environ 20 000 € par an.
 
 **Ce n'est pas du contrôle de gestion. C'est du pilotage à l'aveugle.**
 

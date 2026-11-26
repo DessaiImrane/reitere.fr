@@ -15,12 +15,14 @@ pipeline:
   fb_posts: 5
 faq:
   - q: "Est-ce que je dois arrêter Excel ?"
-    a: "Pas forcément. Excel est un excellent tableur. Le problème commence quand tu l'utilises comme base de données, comme outil de gestion ou comme système de suivi. Si ton process est clair et simple, Excel peut suffire. Si ton fichier a 15 onglets et des formules que personne ne comprend, c'est un signal."
+    a: "Non. Si ton process est clair et simple, Excel suffit. Le problème commence quand tu l'utilises comme base de données ou comme système de suivi : un fichier à 15 onglets avec des formules que personne ne comprend, c'est le signal d'alerte."
   - q: "Par quoi remplacer Excel pour gérer mon entreprise ?"
-    a: "Par le bon outil pour le bon usage. Mais la vraie question c'est : est-ce que tu sais exactement ce que ton process nécessite ? Si la réponse est non, aucun logiciel ne te sauvera. Commence par un audit de ton process. Le choix de l'outil deviendra évident."
+    a: "Commence par un audit de ton process : tant que tu ne sais pas exactement ce qu'il demande, aucun logiciel ne te sauvera. Une fois le process clair, le choix du bon logiciel pour le bon usage devient évident."
   - q: "Comment savoir si le problème c'est Excel ou mon process ?"
     a: "Pose-toi cette question : si tu remplaçais ton fichier Excel par un logiciel magique qui fait tout, est-ce que tes équipes sauraient exactement quoi y mettre et comment ? Si la réponse est 'pas sûr', le problème c'est le process."
 ---
+
+Excel n'est pas un outil de gestion : c'est un tableur, et il craque dès que tu t'en sers comme base de données ou comme suivi. Mais le remplacer ne règle rien tant que le process derrière n'a pas été posé à plat.
 
 **Excel n'est pas ton problème. Ton process, si.** Tout le monde te dit de quitter Excel pour un "vrai" logiciel. Les éditeurs adorent ça. Mais changer d'outil sans comprendre ce qui coince dans ta façon de travailler, c'est mettre le même bordel dans un logiciel plus cher.
 
@@ -28,13 +30,13 @@ faq:
 
 Ouvre Google. Tape "limites Excel gestion entreprise". Tu vas tomber sur 10 articles. Les 10 sont écrits par des éditeurs de logiciels.
 
-Leur argument : [88% des feuilles de calcul contiennent des erreurs](https://www.sciencedirect.com/science/article/abs/pii/S0148296308000155). 68% des PME de moins de 20 salariés utilisent encore Excel comme outil principal. Conclusion : achète notre CRM / ERP / GMAO / [insérer le nom du logiciel].
+Leur argument : [88% des feuilles de calcul contiennent des erreurs](https://www.sciencedirect.com/science/article/abs/pii/S0148296308000155). 68% des PME de moins de 20 salariés utilisent encore Excel comme outil principal. Conclusion : achète notre logiciel de suivi clients, notre logiciel de gestion, notre [insérer le nom du logiciel].
 
 C'est pas faux. Mais c'est pas le sujet.
 
 ## Le vrai problème, c'est pas l'outil
 
-**Le problème, c'est est-ce que tu sais dans le détail ce que tes équipes font avec Excel.**
+**Le problème, c'est : est-ce que tu sais dans le détail ce que tes équipes font avec Excel ?**
 
 Excel, c'est un symptôme. Quand ton fichier est un monstre de 15 onglets avec des formules que personne ne comprend, le problème c'est pas le tableur. C'est que personne n'a jamais posé à plat le process derrière.
 
@@ -42,7 +44,7 @@ Change d'outil si tu veux. Mets un ERP à 50 000 €. **Si ton process est banca
 
 ## Ce que je vois sur le terrain
 
-**Les commissions.** Un client dans le retail. Pour calculer les commissions de ses vendeurs, voilà ce qu'il faisait : 4 exports depuis son logiciel métier. Copié-collé dans son fichier Excel de calcul. Un onglet de recherche par code vendeur avec des RECHERCHEV. Des formules sur plusieurs colonnes pour arriver au bon montant. Et les lignes en rouge ou en jaune ? Les vendeurs avec un contrat différent : calcul à faire à la main.
+**Les commissions.** Un client dans le retail, à La Réunion. Pour calculer les commissions de ses vendeurs, voilà ce qu'il faisait : 4 exports depuis son logiciel métier. Copié-collé dans son fichier Excel de calcul. Un onglet de recherche par code vendeur avec des RECHERCHEV. Des formules sur plusieurs colonnes pour arriver au bon montant. Et les lignes en rouge ou en jaune ? Les vendeurs avec un contrat différent : calcul à faire à la main.
 
 Chaque mois. Pendant des heures.
 
@@ -56,7 +58,7 @@ Le problème, c'est pas Excel. C'est que personne n'a défini comment les donné
 
 ## Ce que tu devrais faire avant de changer d'outil
 
-**Personne ne prend le temps de mettre à plat ce qui est réellement fait dans un process.** Les dirigeants pensent savoir ce que font leurs équipes. C'est vrai dans 80% des cas. Mais les 20% restants (les détails opérationnels, les exceptions, les contournements) passent à la trappe.
+**Personne ne prend le temps de mettre à plat ce qui est réellement fait dans un process.** Les patrons pensent savoir ce que font leurs équipes. C'est vrai dans 80% des cas. Mais les 20% restants (les détails opérationnels, les exceptions, les contournements) passent à la trappe.
 
 Et quand tu migres vers un nouvel outil sans avoir documenté ces 20%, tu régresses. Tu perds des fonctionnalités que personne n'avait identifiées. Tu te retrouves plus lent qu'avant, avec un outil plus cher.
 
@@ -68,6 +70,8 @@ Avant de changer d'outil :
 
 C'est ce que je fais quand j'interviens pour un [diagnostic de process](/services/optimisation-process/). Souvent, le client arrive en disant "il me faut un nouveau logiciel". Et on finit par simplifier le process existant. Parfois sans changer d'outil du tout.
 
-**Tu penses que ton problème c'est Excel ? [On en parle 30 minutes](/contact/), gratuitement. Tu repartiras avec une réponse claire.**
-
 {{< faq >}}
+
+{{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
+{{< /cta >}}

@@ -23,7 +23,7 @@ faq:
   - q: "Comment renommer des centaines de photos avec la référence article ?"
     a: "À la main, c'est des heures. Un programme qui lit le code de l'article (ou la photo prise depuis la fiche) renomme et classe sans que personne ne touche aux fichiers."
   - q: "Peut-on mettre plusieurs photos par article dans le logiciel de gestion ?"
-    a: "Souvent non en standard. Chez un client, c'est impossible en standard et la demande d'import massif attend l'éditeur depuis des mois. On contourne avec un petit programme à côté."
+    a: "Souvent non en standard : chez un client, la demande d'import massif attend l'éditeur depuis des mois. On contourne avec un petit programme à côté."
   - q: "Sur une base type, combien d'articles n'ont pas de photo ?"
     a: "Sur une base type que j'ai utilisée en démonstration, 70 % des articles n'avaient pas de photo. Ce n'est pas une moyenne, mais chez un importateur, c'est souvent une grande partie du catalogue, et personne ne sait exactement laquelle."
 ---
@@ -58,7 +58,7 @@ Ce qui marche : décider de la règle avant de toucher aux fichiers, pas après.
 
 Deux dossiers qui se croisent, c'est le point de départ de tous les problèmes. La deuxième étape, c'est un dossier d'arrivée unique : "À traiter" quand la photo entre, "Traité" quand elle est rattachée.
 
-Pour cette même enseigne, le circuit prévu : boîte de réception, dossier "À traiter", un script qui renomme et dépose dans le logiciel, puis dossier "Traité". L'objectif : plus personne ne se demande où chercher, puisqu'il n'y a plus qu'une porte d'entrée.
+Pour cette même enseigne, le circuit prévu : boîte de réception, dossier "À traiter", un petit programme qui renomme et dépose dans le logiciel, puis dossier "Traité". L'objectif : plus personne ne se demande où chercher, puisqu'il n'y a plus qu'une porte d'entrée.
 
 Le même principe vaut pour les catalogues. Dans cette enseigne, l'acheteuse produit 2 catalogues papier par mois, 2 jours pleins chacun, soit 4 jours par mois. Une partie du temps part à retrouver les images reçues par mail en deux lots, puis à réécrire titres et descriptions, même pour des références déjà traitées. Un dossier partagé nommé par référence remplace les mails, et les textes sont générés depuis les caractéristiques du produit. Le programme qui prépare le catalogue est en service depuis mai 2026.
 
@@ -87,5 +87,5 @@ Un [audit de poste](/services/optimisation-process/) commence exactement là : o
 {{< faq >}}
 
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
-Cinq questions sur tes commandes fournisseurs, ta caisse, tes photos ou ta compta, et je te dis ce qui est automatisable chez toi.
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}

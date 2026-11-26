@@ -38,7 +38,7 @@ Ton fichier de clôture est branché sur Sage avec l'identifiant d'un salarié p
 
 Le fichier fait le travail depuis des mois. Personne ne se souvient de comment il a été monté. Celui qui l'a monté n'est plus dans la boîte.
 
-C'est ce qu'un intégrateur Sage m'a montré chez un de ses clients, un magasin. Deux fichiers Excel de clôture caisse, un par magasin, branchés directement sur la base de données de Sage 100 avec l'identifiant nominatif d'un salarié parti. Créés en décembre, et encore modifiés à la main en juin. Même modèle dupliqué, formules recopiées à la main, aucune protection.
+C'est ce qu'un intégrateur Sage m'a montré chez un de ses clients, un magasin à La Réunion. Deux fichiers Excel de clôture caisse, un par magasin, branchés directement sur la base de données de Sage 100 avec l'identifiant nominatif d'un salarié parti. Créés en décembre, et encore modifiés à la main en juin. Même modèle dupliqué, formules recopiées à la main, aucune protection.
 
 **Un fichier de clôture qui dépend du compte d'une personne n'est pas un outil. C'est une bombe à retardement avec un joli tableau.**
 
@@ -96,5 +96,5 @@ Si tu n'as pas la réponse à une des trois, ton fichier est dans le même état
 {{< faq >}}
 
 {{< cta title="Tu veux savoir combien de jours par semaine tu peux récupérer ?" button="Répondre à 5 questions" url="/contact/" >}}
-Cinq questions sur ta caisse, ta compta ou tes commandes fournisseurs, et je te dis ce qui est automatisable chez toi.
+Cinq questions sur tes commandes fournisseurs, ta caisse ou ta compta, et je te dis ce qui est automatisable chez toi.
 {{< /cta >}}
